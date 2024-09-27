@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>图文转换笔记本</title>
+	<style>
+		body {
+			margin: auto;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			text-align: center
+		}
+		img {
+			margin-top: 20px;
+			width: 90%;
+			/* 图片宽度与标题宽度一致 */
+			height: auto;
+		}
+
+		#currentImage {
+			margin-top: 20px;
+			width: 90%;
+			/* 图片宽度与标题宽度一致 */
+			height: auto;
+		}
+
+		#previousImages {
+			width: 90%;
+			/* 控制图片显示区的宽度 */
+			overflow: hidden;
+			/* 隐藏超出容器的部分 */
+			position: relative;
+		}
+
+        #previmg{
+            display: none;
+        }
+
+        #nextimg{
+            display: none;
+        }
+
+
+		.slider-container {
+            display: flex; /* 使用flex布局，使得子元素(image-container)可以横向排列 */
+            /* overflow: hidden; /* 隐藏溢出的部分，重要的是确保滑动效果 */
+            /* width: 100%; 滑动容器宽度为整个视图宽度 */ 
+            /* position: relative; 相对定位，为后续可能的定位提供参考 */
+            transition: transform 0.5s ease; /* 平滑过渡效果 */
+            height:fit-content;
+        }
+
+        .slider-container img {
+            min-width: 100%;
+            /* 保证图片占满整个容器宽度 */
+            transition: transform 0.3s ease-in-out;
+            /* 图片变换时的平滑过渡 */
+        }
+
+        /* 设置每个图片容器的样式 */
+        .image-container {
+            width: 100%; /* 每个图片容器占满整个视图宽度，这对单张图片全屏显示很重要 */
+            flex-shrink: 0; /* 防止flex布局时缩小 */
+            display: flex; /* 使用flex布局 */
+            flex-direction: column; /* 子元素垂直排列 */
+            align-items: center; /* 子元素水平居中 */
+            /* justify-content: center; 子元素垂直居中 */
+            height:auto;
+        }
+
+        /* 图片的基本样式 */
+        .image-container img {
+            max-width: 100%; /* 最大宽度为容器宽度，保证图片不会超出屏幕 */
+            height: auto; /* 高度自动，保持图片比例 */
+        }
+
+        /* 文本的基本样式 */
+        .image-container div {
+            text-align: center; /* 文本居中显示 */
+            padding: 10px; /* 添加一些内边距 */
+            color: #ffffff; /* 文本颜色为白色，适用于深色背景 */
+            background-color: rgba(0, 0, 0, 0.5); /* 背景色半透明黑色，增加文本的可读性 */
+            width: 100%; /* 文本宽度与图片宽度一致 */
+            box-sizing: border-box; /* 盒模型调整，包括padding和border在内的宽度 */
+        }
+
+        .empty-container {
+            display: 'none';
+            text-align: center;
+            width: 100%;
+        }
+
+        .fade-box {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            background: #e0e5ec;
+            color: #61677C;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+
+            position: fixed;  /* 固定定位，相对于视口 */
+            bottom: 0;        /* 定位到屏幕底部 */
+            left: 0;          /* 左边界与视口左边对齐 */
+            right: 0;         /* 右边界与视口右边对齐 */
+            width: 100%;      /* 宽度100% */
+            background-color: hsla(172, 79%, 55%, 0.838);
+            /* border: 1px solid #ffffff; */
+            box-sizing: border-box; /* 盒模型，包含padding和border */
+            opacity: 1;
+            transition: opacity 2s ease-out; /* 渐变效果 */
+            z-index: 1000;  /* 确保在其他内容之上 */
+            /* border-radius: 95%; */
+            background-clip: padding-box; /* 背景颜色仅覆盖到内边距区域 */
+
+            
+            }
+
+            body {
+        margin: 0;
+        padding: 20px;
+        background: #f5f5f5; /* 浅灰色背景，减少视觉疲劳 */
+        font-family: 'Arial', sans-serif; /* 使用无衬线字体，更加现代和清晰 */
+        color: #333; /* 深灰色字体，提供足够对比但不如黑色那么强烈 */
+        line-height: 1.6; /* 增加行高，改善可读性 */
+        font-size: 16px; /* 默认字体大小，适合大多数屏幕和阅读习惯 */
+        }
+
+        h1, h2, h3 {
+            margin: 0 0 20px 0; /* 为标题添加底部外边距，以区分段落 */
+            font-weight: normal; /* 避免使用过重的字体样式 */
+        }
+
+        h1 {
+            font-size: 32px; /* 显著大于正文的字体大小，用于主标题 */
+        }
+
+        h2 {
+            font-size: 24px; /* 次级标题大小 */
+        }
+
+        h3 {
+            font-size: 14px; /* 三级标题大小 */
+        }
+
+        p {
+            margin: 0 0 20px 0; /* 段落底部外边距，保持内容间隔 */
+        }
+
+        /* 同行排列 */
+        .form-group {               
+        display: flex;
+        align-items: center;
+        }
+
+        .center{
+            display:flex;
+            justify-content: center;
+        }
+
+        .panel {
+            text-align: center;
+            padding: 10% 0;
+        }
+ 
+        .panel .btn-container {
+            display: inline-block;
+        }
+ 
+        .panel .btn-container input {
+            height: 60px;
+            border: 0;
+            outline: 0;
+            width: 120px;
+            border-radius: 30px;
+            background-color: rgb(104,101,101);
+            color: #fff;
+            font-size: 20px;
+            padding: 0 20px;
+            vertical-align: middle;
+            transition: .2s;
+        }
+        ::-webkit-input-placeholder {
+            color: #fff;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+        }
+ 
+        .panel .btn-container  .btn{
+            display: inline-block;
+            height: 60px;
+            background-color: rgb(239,77,138);
+            line-height: 60px;
+            font-size: 20px;
+            color: #fff;
+            font-weight: bold;
+            width: 170px;
+            border-radius: 30px;
+            margin-left: -170px;
+            cursor: pointer;
+            transition: .2s;
+ 
+        }
+ 
+        .panel .btn-container:hover input{
+            width: 400px;
+            animation: inputAction .4s ease-in-out;
+        }
+ 
+        .panel .btn-container:hover .btn{
+            width: 100px;
+            height: 60px;
+            margin-left: -100px;
+            animation: btnAction .4s ease-out;
+        }
+ 
+        @keyframes inputAction {
+            0%{
+                width: 400px;
+            }
+            60%{
+                width: 450px;
+ 
+            }
+            100%{
+                width: 400px;
+            }
+        }
+ 
+        @keyframes btnAction {
+            0%{
+                width: 100px;
+            height: 60px;
+            margin-left: -100px;
+            }
+            60%{
+                width: 80px;
+            height: 60px;
+            margin-left: -60px;
+ 
+            }
+            100%{
+                width: 100px;
+            height: 60px;
+            margin-left: -100px;
+            }
+        }
+        
+        /* 第二种按钮 */
+        .niceButton{
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color:#fff;
+            background-color: rgb(16, 185, 214);
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+        .niceButton:hover{
+        background-color: #1795bb;
+        }
+        .niceButton:active{
+            background-color: #1795bb;
+            box-shadow: 0 5px #666;
+            transform:translateY(4px);
+        }
+
+
+        .neu-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            background: #e0e5ec;
+            color: #61677C;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 8px 8px 15px #a3b1c6, 
+                        -8px -8px 15px #ffffff;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .neu-button:hover {
+            box-shadow: 3px 3px 8px #a3b1c6, 
+                        -3px -3px 8px #ffffff;
+        }
+
+        .neu-button:active {
+            box-shadow: inset 3px 3px 8px #a3b1c6, 
+                        inset -3px -3px 8px #ffffff;
+            color: #50596b;
+        }
+
+        .neu-button i {
+            margin-right: 10px;
+        }
+/* 3 */
+        input[type="text"] {
+            width: 90%; /* 响应式宽度 */
+            max-width: 300px; /* 最大宽度 */
+            padding: 10px 15px;
+            font-size: 16px; /* 移动设备上最佳可读字体大小 */
+            border: 2px solid #ccc; /* 微妙的边框 */
+            border-radius: 8px; /* 圆角 */
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* 3D效果的柔和阴影 */
+            outline: none; /* 移除默认的焦点轮廓 */
+        }
+        input[type="text"]:focus {
+            border-color: #0056b3; /* 焦点时的高亮颜色 */
+            box-shadow: 2px 2px 10px rgba(0,105,217,0.25); /* 焦点时更强烈的阴影 */
+        }
+
+        .input_2{
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin-bottom: 20px; /* 设置下方外边距为 20px */
+        }
+
+        .bottom{
+            margin-bottom: 20px;
+        }
+
+	</style>
+
+</head>
+
+<body>
+    <h1> </h1>
+	<h2>上传你想要识别的图片</h2>
+	<!-- 隐藏的文件输入 -->
+	<input type="file" id="fileInput" style="display: none;" accept="image/*">
+
+    <div>
+        <!-- 触发文件输入的按钮 -->
+        <button id="uploadButton" class="neu-button">点击上传</button>
+        <!-- 在前端页面添加一个按钮用于获取以往上传的图片 -->
+        <button id="viewPreviousImages" class="neu-button">查看以往上传的图片</button>
+    </div>
+    
+    <!-- 用于显示当前上传的图片 -->
+    <div id="currentImage"></div>
+
+    <div>
+        <button id="previmg" class="neu-button">上一张</button>
+        <button id="nextimg" class="neu-button">下一张</button>
+    </div>
+
+    <div id="previousImages">
+        <div class="slider-container"></div>
+    </div>
+    <!-- 图片将在这个容器内滑动 -->
+
+    <div id="textbox" class="fade-box" style="opacity:1; display : none;">暂时没有更多了</div>
+    <!-- 用于显示api调用后识别到的文字 -->
+    <p id="response"></p>
+    
+
+    <script>
+    var currentIndex = 0;
+    var num=0;
+    var image_length_var=0;                                                         //内层修改外层不会变
+    var id;
+    document.getElementById('uploadButton').onclick = function() {
+        fetch(`/idget`)
+            .then(response=>response.json())
+            .then(data=>{
+                id=data.person_id;
+            })
+        document.getElementById('fileInput').click();
+        document.getElementById('previmg').style.display = 'none';                  //点击上传照片隐藏按钮
+        document.getElementById('nextimg').style.display = 'none';
+    };
+
+    document.getElementById('fileInput').onchange = function() {
+        var file = this.files[0];
+        if (file) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                var displayDiv  = document.getElementById('currentImage');
+                displayDiv.innerHTML = ''; // 清空当前显示区域
+                var imgElement = document.createElement('img');
+                imgElement.src = e.target.result;
+                displayDiv.appendChild(imgElement);
+
+
+                var sliderContainer = document.querySelector('.slider-container');
+                sliderContainer.innerHTML = ''; // 清空滑动容器内的内容
+
+            };
+            reader.readAsDataURL(file);
+
+            var formData = new FormData();
+            formData.append('file', file);
+
+            fetch('http://39.101.72.249:5000/upload', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.recognized_text) {
+                    var nowTime = new Date();                                      //添加上传时间
+                    var time='上传时间'+nowTime.toLocaleString()+"<br><br>"
+                    document.getElementById('response').innerHTML = time+"识别到的文字: " + data.recognized_text;
+
+                } else {
+                    document.getElementById('response').innerHTML = '提示: ' + "上传太过频繁，请稍等或刷新重试";
+                }
+
+                fetch('/images_count',{method:'GET'})
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        image_length_var = data.image_length;       //添加图片后后修改总图片长度
+                                        console.log('添加后'+image_length_var)
+                                    });
+            })
+            .catch(error => {
+                document.getElementById('response').innerHTML = 'Errorb: ' + error;
+            });
+            this.value = '';
+        }
+    };
+
+    let isVisible
+    const sliderContainer = document.querySelector('.slider-container');        //定义在函数之外，可以提前绑定
+
+    function slideImage(step) {                                                 //查看历史图片的滑动函数
+        let fadeTimeout=null;
+        let resetTimeout=null;
+        let allTimeout=null;
+        if(image_length_var==1){                                                //一张图片时，底部显示文字
+            if(!isVisible){
+                isVisible=true;
+                const textbox=document.getElementById('textbox');
+                textbox.style.display = 'inline-block';
+                
+                // 清除之前可能存在的 setTimeout
+                clearTimeout(fadeTimeout);
+                clearTimeout(resetTimeout);
+                clearTimeout(allTimeout);
+
+                allTimeout=setTimeout(function(){
+                    fadeTimeout = setTimeout(function() {
+                    textbox.style.opacity = 0;
+                    }, 100);
+
+                    resetTimeout = setTimeout(function() {
+                        textbox.style.display = 'none';
+                        textbox.style.transition = 'none';                      // 移除渐变效果
+                        textbox.style.opacity = 1;                              // 立即改变 opacity
+                        textbox.offsetHeight;                                   // 强制浏览器重绘
+                        textbox.style.transition = 'opacity 2s ease-out';       // 恢复渐变效果
+                        isVisible = false;
+                    }, 2100);
+                },200);
+            }
+        }
+        currentIndex += step;
+        if (currentIndex >= image_length_var) currentIndex = 0;                 //滑动至最后一张，切换回第一张
+        if (currentIndex < 0) currentIndex = image_length_var - 1;              //划到第一张，切回最后一张
+        sliderContainer.style.transform = `translateX(${-currentIndex * 100}%)`;//滑动
+    }
+
+    console.log('7')
+    function handlePrevButtonClick() {                                          //上一张函数
+        slideImage(-1);
+    }
+    function handleNextButtonClick() {                                          //下一张函数
+        slideImage(1);
+    }
+
+    const prevButton = document.getElementById('previmg');                      //绑定上一张按钮
+    const nextButton = document.getElementById('nextimg');                      //绑定下一张按钮
+    prevButton.addEventListener('click',handlePrevButtonClick);                 //绑定click事件
+    nextButton.addEventListener('click',handleNextButtonClick);
+    console.log('6')
+    document.getElementById('viewPreviousImages').onclick = function() {
+        console.log('1')
+        document.getElementById('currentImage').innerHTML = '';                 // 清空当前上传的图片显示区域
+        document.getElementById('response').innerHTML='';
+
+        fetch('/get_previous_images', {
+            method: 'GET'
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('2')
+            image_length_var=data.images_folder.length;
+            sliderContainer.innerHTML = '';                                     // 清空滑动容器内的内容
+
+            const empty=document.createElement('div');                          //没有图片时显示未上传
+            empty.classList.add('empty-container');                             //添加css样式
+            empty.innerHTML="之前未识别过图片或已全部删除";
+            
+
+            if (data.images_folder.length==0){                                  //控制历史图片按钮的显示
+                empty.style.display='inline-block';
+                }
+            else{
+                empty.style.display='none';
+            }
+            sliderContainer.appendChild(empty);
+
+            data.images_folder.forEach((images_folder, index) => {              //遍历传回来的列表的每一个值
+                const imageContainer = document.createElement('div');           //创建标签存储显示的图片和文字
+                imageContainer.classList.add('image-container');                // 添加CSS样式化
+
+                const imgElement = document.createElement('img');               //定义img标签
+                imgElement.src = '/get_image/'+images_folder+'/' + encodeURIComponent(images_folder);   //获取图片
+                imageContainer.appendChild(imgElement);                         //把图片加到img标签中
+
+                const textElement = document.createElement('div');              //定义文字标签
+                textElement.classList.add('input_2');
+                textElement.style.marginBottom="20px"
+                fetch(`/get_text/${images_folder}/${images_folder}.txt`)        //获取识别到的文字
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.text) {
+                            var nowTime = new Date();                           //添加上传时间
+                            var time='上传时间'+nowTime.toLocaleString()+"<br><br>"
+                            textElement.innerHTML = time+'识别到的文字：'+data.text; // 显示文本文件的内容
+                        } else {
+                            textElement.innerHTML = 'No text available';        // 没有文本时的备选显示
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching text:', error);
+                        textElement.innerHTML = 'Failed to load text';
+                    });
+                imageContainer.appendChild(textElement);                        //将文字标签加到img标签中
+                
+                const deleteButton = document.createElement('button');  
+                deleteButton.classList.add('neu-button')
+                deleteButton.style.marginBottom = "20px";
+                deleteButton.textContent = '删除';
+                deleteButton.onclick = function() {                             //click事件绑定button和删除delete的flask
+                    fetch('/delete_folder/' + encodeURIComponent(images_folder), { method: 'POST' })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.status === 'success') {
+                                imageContainer.style.display = 'none';          //删除文件夹成功则隐藏此容器
+                                
+                                fetch('/images_count',{method:'GET'})           //测量总图片数
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        image_length_var = data.image_length;   //删除后修改总图片长度
+                                        console.log(image_length_var+'删除后的var')
+                                    });
+                
+                            } else {
+                                alert('Error: ' + data.message);
+                            }
+                        })
+                        .catch(error => {
+                            alert('Error deleting folder: ' + error.message);
+                        });
+                };
+
+                const bottom_1=document.createElement("div");
+                bottom_1.classList.add("bottom")
+
+
+                imageContainer.appendChild(deleteButton);                       //将删除div添加到容器中
+
+                sliderContainer.appendChild(imageContainer);
+                sliderContainer.appendChild(bottom_1);                          //全部添加到滑动容器中
+            });
+            
+            isVisible=false;
+
+            if ( data.images_folder.length!=0){
+                prevButton.style.display = 'inline-block';                      //点击查看历史照片显示按钮
+                nextButton.style.display = 'inline-block';
+            }
+            else{
+                prevButton.style.display = 'none';                              
+                nextButton.style.display = 'none';
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching previous images:', error);
+        });
+    };
+    console.log('5')
+    </script>
+
+</body>
+</html>

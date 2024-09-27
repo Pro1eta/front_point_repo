@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>登陆界面</title>
+	<style>
+            body {
+        margin: 0;
+        padding: 20px;
+        background: #f5f5f5; /* 浅灰色背景，减少视觉疲劳 */
+        font-family: 'Arial', sans-serif; /* 使用无衬线字体，更加现代和清晰 */
+        color: #333; /* 深灰色字体，提供足够对比但不如黑色那么强烈 */
+        line-height: 1.6; /* 增加行高，改善可读性 */
+        font-size: 16px; /* 默认字体大小，适合大多数屏幕和阅读习惯 */
+        }
+
+        h1, h2, h3 {
+            margin: 0 0 20px 0; /* 为标题添加底部外边距，以区分段落 */
+            font-weight: normal; /* 避免使用过重的字体样式 */
+        }
+
+        h1 {
+            font-size: 32px; /* 显著大于正文的字体大小，用于主标题 */
+        }
+
+        h2 {
+            font-size: 24px; /* 次级标题大小 */
+        }
+
+        h3 {
+            font-size: 20px; /* 三级标题大小 */
+        }
+
+        p {
+            margin: 0 0 20px 0; /* 段落底部外边距，保持内容间隔 */
+        }
+        .form-group {               
+        display: flex;
+        align-items: center;
+        }
+
+        .center{
+            display:flex;
+            justify-content: center;
+        }
+
+        .panel {
+            text-align: center;
+            padding: 10% 0;
+        }
+ 
+        .panel .btn-container {
+            display: inline-block;
+        }
+ 
+        .panel .btn-container input {
+            height: 60px;
+            border: 0;
+            outline: 0;
+            width: 120px;
+            border-radius: 30px;
+            background-color: rgb(104,101,101);
+            color: #fff;
+            font-size: 20px;
+            padding: 0 20px;
+            vertical-align: middle;
+            transition: .2s;
+        }
+        ::-webkit-input-placeholder {
+            color: #fff;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+        }
+ 
+        .panel .btn-container  .btn{
+            display: inline-block;
+            height: 60px;
+            background-color: rgb(239,77,138);
+            line-height: 60px;
+            font-size: 20px;
+            color: #fff;
+            font-weight: bold;
+            width: 170px;
+            border-radius: 30px;
+            margin-left: -170px;
+            cursor: pointer;
+            transition: .2s;
+ 
+        }
+ 
+        .panel .btn-container:hover input{
+            width: 400px;
+            animation: inputAction .4s ease-in-out;
+        }
+ 
+        .panel .btn-container:hover .btn{
+            width: 100px;
+            height: 60px;
+            margin-left: -100px;
+            animation: btnAction .4s ease-out;
+        }
+ 
+        @keyframes inputAction {
+            0%{
+                width: 400px;
+            }
+            60%{
+                width: 450px;
+ 
+            }
+            100%{
+                width: 400px;
+            }
+        }
+ 
+        @keyframes btnAction {
+            0%{
+                width: 100px;
+            height: 60px;
+            margin-left: -100px;
+            }
+            60%{
+                width: 80px;
+            height: 60px;
+            margin-left: -60px;
+ 
+            }
+            100%{
+                width: 100px;
+            height: 60px;
+            margin-left: -100px;
+            }
+        }
+        
+        /* 第二种按钮 */
+        .niceButton{
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color:#fff;
+            background-color: rgb(16, 185, 214);
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+        .niceButton:hover{
+        background-color: #1795bb;
+        }
+        .niceButton:active{
+            background-color: #1795bb;
+            box-shadow: 0 5px #666;
+            transform:translateY(4px);
+        }
+
+
+        .neu-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            margin:1px 20px;
+            text-align: center;
+            border: none;
+            background: #e0e5ec;
+            color: #61677C;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 8px 8px 15px #a3b1c6, 
+                        -8px -8px 15px #ffffff;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .neu-button:hover {
+            box-shadow: 3px 3px 8px #a3b1c6, 
+                        -3px -3px 8px #ffffff;
+        }
+
+        .neu-button:active {
+            box-shadow: inset 3px 3px 8px #a3b1c6, 
+                        inset -3px -3px 8px #ffffff;
+            color: #50596b;
+        }
+
+        .neu-button i {
+            margin-right: 10px;
+        }
+/* 3 */
+        input[type="text"] {
+            width: 90%; /* 响应式宽度 */
+            max-width: 300px; /* 最大宽度 */
+            padding: 10px 15px;
+            font-size: 16px; /* 移动设备上最佳可读字体大小 */
+            border: 2px solid #ccc; /* 微妙的边框 */
+            border-radius: 8px; /* 圆角 */
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* 3D效果的柔和阴影 */
+            outline: none; /* 移除默认的焦点轮廓 */
+        }
+        input[type="text"]:focus {
+            border-color: #0056b3; /* 焦点时的高亮颜色 */
+            box-shadow: 2px 2px 10px rgba(0,105,217,0.25); /* 焦点时更强烈的阴影 */
+        }
+
+        .input_2{
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin-bottom: 20px; /* 设置下方外边距为 20px */
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+	<div class="center">
+        <h1>登陆界面</h1>
+    </div>
+	
+    <h2>登录</h2>
+
+  
+    <div class="input_2">
+        <div>用户名</div>
+    <input type="text" id="id_get">
+    </div>
+
+
+    <div class="input_2">
+        <div>密码</div>
+        <input type="text" id="password_get">
+    </div>
+
+    <div class="center">
+        <button id="id_get_click" class="neu-button">登录</button>
+    </div>
+    
+    <!-- <div class="center">
+        <button id="jump" class="neu-button" style="margin-top: 20px;" >登录（雷达原理小助手）</button>
+    </div> -->
+    <p id="response"></p>
+    
+    <script>
+        // const registerButton = document.getElementById('register');         //绑定注册按钮
+        // registerButton.style.display = 'none';                              //隐藏
+        // registerButton.onclick=function(){
+        //     fetch('/register',method=['GET'])                              //跳转到注册页面
+        //         window.location.href = '/register';
+        // }
+
+        const loadButton=document.getElementById('id_get_click');           //绑定到id获取按钮
+        loadButton.onclick=function(){
+            id=document.getElementById("id_get").value;
+            password=document.getElementById("password_get").value;
+            if(id===""){
+                window.alert("请输入用户名")
+            }
+            else if(password===""){
+                window.alert("请输入密码")
+            }
+            else{                                                             
+                console.log("123")                                          
+                fetch(`/idget/${id}`)                                       //获取到id
+                fetch(`/security_check/${id}/${password}`,method=['GET'])  //检查密码正确与否
+                    .then(response=>response.json())
+                    .then(data=>{
+                        if(data.security_id==1){
+                            if(id=='1')
+                                window.location.href = 'http://103.242.175.245:8080/ui/chat/3b6a5c2ef33f62e9';                 //红旗
+                            else if(id=='2')
+                                window.location.href = 'http://103.242.175.245:8080/ui/chat/e5be85b14e57dd65';                 //反辐射无人机
+                            else if(id=='3')
+                                window.location.href = 'http://103.242.175.245:8080/ui/chat/cdf55a6ae53e7be0';                 //汽车小助手
+                            else if(id=='123')
+                                window.location.href = 'http://oamaxkb.tech/ui/chat/3ae9ca949eb7b398';                 //摩托艇
+                            else if(id=='test')
+                                window.location.href = 'https://oamaxkb.tech/ui/chat/8f1c39be59634886';                 //雷达原理
+                            else
+                                window.alert('账号不存在!')
+                        }
+                        else if(data.security_id==2){
+                            window.alert('账号不存在!')
+                        }
+                        else{
+                            window.alert('密码错误!')
+                        }
+                    })
+                    .catch(error=>{
+                        console.error(error);
+                    })
+            }
+        }
+        
+    </script>
+
+</body>
+</html>
